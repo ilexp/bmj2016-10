@@ -6756,7 +6756,7 @@
                             <R dataType="Byte">206</R>
                           </color>
                           <energy dataType="Float">0</energy>
-                          <energyChargeRate dataType="Float">0.4484297</energyChargeRate>
+                          <energyChargeRate dataType="Float">0.8293855</energyChargeRate>
                           <gameobj dataType="ObjectRef">3261185991</gameobj>
                           <moveSpeed dataType="Float">5</moveSpeed>
                           <targetMovement dataType="Struct" type="Duality.Vector2" />
@@ -6819,13 +6819,13 @@
                                   <ignoreParent dataType="Bool">false</ignoreParent>
                                   <parentTransform />
                                   <pos dataType="Struct" type="Duality.Vector3">
-                                    <X dataType="Float">362.001</X>
-                                    <Y dataType="Float">-100</Y>
+                                    <X dataType="Float">-620.925</X>
+                                    <Y dataType="Float">785.01</Y>
                                     <Z dataType="Float">0</Z>
                                   </pos>
                                   <posAbs dataType="Struct" type="Duality.Vector3">
-                                    <X dataType="Float">362.001</X>
-                                    <Y dataType="Float">-100</Y>
+                                    <X dataType="Float">-620.925</X>
+                                    <Y dataType="Float">785.01</Y>
                                     <Z dataType="Float">0</Z>
                                   </posAbs>
                                   <scale dataType="Float">1</scale>
@@ -6907,7 +6907,7 @@
                                     <R dataType="Byte">255</R>
                                   </color>
                                   <energy dataType="Float">0</energy>
-                                  <energyChargeRate dataType="Float">0.7990134</energyChargeRate>
+                                  <energyChargeRate dataType="Float">0.8942588</energyChargeRate>
                                   <gameobj dataType="ObjectRef">1273621518</gameobj>
                                   <moveSpeed dataType="Float">5</moveSpeed>
                                   <targetMovement dataType="Struct" type="Duality.Vector2" />
@@ -6954,7 +6954,7 @@
                               <body />
                             </identifier>
                             <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
-                            <name dataType="String">Germ</name>
+                            <name dataType="String">RedGerm</name>
                             <parent dataType="ObjectRef">3858179224</parent>
                             <prefabLink />
                           </item>
@@ -6974,13 +6974,13 @@
                                   <ignoreParent dataType="Bool">false</ignoreParent>
                                   <parentTransform />
                                   <pos dataType="Struct" type="Duality.Vector3">
-                                    <X dataType="Float">77.0020142</X>
-                                    <Y dataType="Float">-280</Y>
+                                    <X dataType="Float">1097.58813</X>
+                                    <Y dataType="Float">-524.79</Y>
                                     <Z dataType="Float">0</Z>
                                   </pos>
                                   <posAbs dataType="Struct" type="Duality.Vector3">
-                                    <X dataType="Float">77.0020142</X>
-                                    <Y dataType="Float">-280</Y>
+                                    <X dataType="Float">1097.58813</X>
+                                    <Y dataType="Float">-524.79</Y>
                                     <Z dataType="Float">0</Z>
                                   </posAbs>
                                   <scale dataType="Float">1</scale>
@@ -7062,7 +7062,7 @@
                                     <R dataType="Byte">0</R>
                                   </color>
                                   <energy dataType="Float">0</energy>
-                                  <energyChargeRate dataType="Float">0.8080466</energyChargeRate>
+                                  <energyChargeRate dataType="Float">0.9555994</energyChargeRate>
                                   <gameobj dataType="ObjectRef">211454693</gameobj>
                                   <moveSpeed dataType="Float">5</moveSpeed>
                                   <targetMovement dataType="Struct" type="Duality.Vector2" />
@@ -7109,7 +7109,7 @@
                               <body />
                             </identifier>
                             <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
-                            <name dataType="String">Germ</name>
+                            <name dataType="String">BlueGerm</name>
                             <parent dataType="ObjectRef">3858179224</parent>
                             <prefabLink />
                           </item>
@@ -7129,13 +7129,13 @@
                                   <ignoreParent dataType="Bool">false</ignoreParent>
                                   <parentTransform />
                                   <pos dataType="Struct" type="Duality.Vector3">
-                                    <X dataType="Float">-303.996979</X>
-                                    <Y dataType="Float">-189</Y>
+                                    <X dataType="Float">-748.384949</X>
+                                    <Y dataType="Float">-309.512024</Y>
                                     <Z dataType="Float">0</Z>
                                   </pos>
                                   <posAbs dataType="Struct" type="Duality.Vector3">
-                                    <X dataType="Float">-303.996979</X>
-                                    <Y dataType="Float">-189</Y>
+                                    <X dataType="Float">-748.384949</X>
+                                    <Y dataType="Float">-309.512024</Y>
                                     <Z dataType="Float">0</Z>
                                   </posAbs>
                                   <scale dataType="Float">1</scale>
@@ -7217,7 +7217,7 @@
                                     <R dataType="Byte">255</R>
                                   </color>
                                   <energy dataType="Float">0</energy>
-                                  <energyChargeRate dataType="Float">0.0781343058</energyChargeRate>
+                                  <energyChargeRate dataType="Float">0.804403841</energyChargeRate>
                                   <gameobj dataType="ObjectRef">2092266675</gameobj>
                                   <moveSpeed dataType="Float">5</moveSpeed>
                                   <targetMovement dataType="Struct" type="Duality.Vector2" />
@@ -7264,7 +7264,7 @@
                               <body />
                             </identifier>
                             <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
-                            <name dataType="String">Germ</name>
+                            <name dataType="String">PurpleGerm</name>
                             <parent dataType="ObjectRef">3858179224</parent>
                             <prefabLink />
                           </item>
@@ -9609,13 +9609,13 @@
                                   <ignoreParent dataType="Bool">false</ignoreParent>
                                   <parentTransform />
                                   <pos dataType="Struct" type="Duality.Vector3">
-                                    <X dataType="Float">717.474548</X>
-                                    <Y dataType="Float">750.595032</Y>
+                                    <X dataType="Float">-9.363445</X>
+                                    <Y dataType="Float">-375.438965</Y>
                                     <Z dataType="Float">0</Z>
                                   </pos>
                                   <posAbs dataType="Struct" type="Duality.Vector3">
-                                    <X dataType="Float">717.474548</X>
-                                    <Y dataType="Float">750.595032</Y>
+                                    <X dataType="Float">-9.363445</X>
+                                    <Y dataType="Float">-375.438965</Y>
                                     <Z dataType="Float">0</Z>
                                   </posAbs>
                                   <scale dataType="Float">1</scale>

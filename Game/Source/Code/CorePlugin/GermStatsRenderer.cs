@@ -28,9 +28,24 @@ namespace Game
 			canvas.State.SetMaterial(new BatchInfo(DrawTechnique.Alpha, ColorRgba.White));
 
 			canvas.State.ColorTint = ColorRgba.White.WithAlpha(0.25f);
-			canvas.FillCircle(
-				worldPos.X, worldPos.Y, worldPos.Z, 
-				3.0f + 37.0f * germ.Energy / (1.0f + germ.Energy));
+			bool canAttack = germ.Energy > GermController.MinAttackEnergy;
+			if (canAttack)
+			{
+				canvas.FillCircle(
+					worldPos.X, worldPos.Y, worldPos.Z,
+					3.0f + 37.0f * germ.Energy / (1.0f + germ.Energy));
+			}
+			else
+			{
+				canvas.FillThickLine(
+					worldPos.X - 10, worldPos.Y - 10, worldPos.Z,
+					worldPos.X + 10, worldPos.Y + 10, worldPos.Z,
+					3.0f);
+				canvas.FillThickLine(
+					worldPos.X + 10, worldPos.Y - 10, worldPos.Z,
+					worldPos.X - 10, worldPos.Y + 10, worldPos.Z,
+					3.0f);
+			}
 
 			canvas.State.ColorTint = ColorRgba.White.WithAlpha(0.25f);
 			int chargeIndicators = MathF.RoundToInt(germ.EnergyChargeRate / 0.25f);

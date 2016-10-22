@@ -45,16 +45,17 @@ namespace Game
 			{
 				this.selectTargetTimer = MathF.Rnd.NextFloat(0.5f, 3.0f);
 				if (MathF.Rnd.NextBool())
-					this.SelectTarget();
+					this.attackTarget = this.SelectTarget();
 				else
 					this.attackTarget = null;
 			}
 		}
 
-		private void SelectTarget()
+		private GermController SelectTarget()
 		{
 			GermController controller = this.GameObj.GetComponent<GermController>();
-			if (controller.Color == ColorRgba.White) return;
+			if (controller.Color == ColorRgba.White) return null;
+			if (controller.Energy <= GermController.MinAttackEnergy) return null;
 
 			GermController[] germs = this.GameObj.ParentScene.FindComponents<GermController>().ToArray();
 
@@ -73,7 +74,7 @@ namespace Game
 				}
 			}
 
-			this.attackTarget = nearestGerm;
+			return nearestGerm;
 		}
 		private float CheckObstacle(Vector2 ray)
 		{
