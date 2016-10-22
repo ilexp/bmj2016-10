@@ -3,6 +3,7 @@ uniform sampler2D cloudNoiseTex;
 uniform float TimeOffset;
 uniform float GameTime;
 uniform vec2 MoveDir;
+uniform float EnergyLevel;
 uniform float ColorShift;
 uniform vec4 FirstColor;
 uniform vec4 SecondColor;
@@ -30,6 +31,11 @@ void main()
 	
 	float colorShiftProgress = min(1.0, ColorShift * 2.0) * smoothstep(0.0, 0.2, cloudNoiseTex.r - 1.0 + ColorShift * 1.3 - sideHighlight);
 	vec4 localColor = mix(FirstColor, SecondColor, colorShiftProgress);
+	localColor = mix(vec4(1, 1, 1, 1), localColor, 0.5 + min(0.5 * EnergyLevel, 0.5));
+	
+	// Boost brightness on high energy
+	float highEnergy = max(0, EnergyLevel - 1);
+	brightness += 0.5 * (highEnergy / (1 + highEnergy));
 	
 	float cellularMatterDensity = (0.65 + 0.35 * cloudNoiseTex.r);
 	gl_FragColor = vec4(mainColor.rgb * localColor.rgb * cellularMatterDensity * brightness + 0.25 * sideHighlight, opacity * cellularMatterDensity * localColor.a * mainColor.a);

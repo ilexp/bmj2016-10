@@ -12,10 +12,12 @@ namespace Game
 {
 	[RequiredComponent(typeof(RigidBody))]
 	[RequiredComponent(typeof(GermBlobRenderer))]
-	public class GermController : Component, ICmpUpdatable
+	public class GermController : Component, ICmpUpdatable, ICmpCollisionListener, ICmpInitializable
 	{
 		private Vector2 targetMovement = Vector2.Zero;
 		private float moveSpeed = 5.0f;
+		private float energy = 0.0f;
+		private float energyChargeRate = 1.0f;
 		private ColorRgba color = ColorRgba.White;
 
 		public Vector2 TargetMovement
@@ -28,6 +30,16 @@ namespace Game
 			get { return this.moveSpeed; }
 			set { this.moveSpeed = value; }
 		}
+		public float Energy
+		{
+			get { return this.energy; }
+			set { this.energy = value; }
+		}
+		public float EnergyChargeRate
+		{
+			get { return this.energyChargeRate; }
+			set { this.energyChargeRate = value; }
+		}
 		public ColorRgba Color
 		{
 			get { return this.color; }
@@ -38,6 +50,8 @@ namespace Game
 		{
 			RigidBody body = this.GameObj.GetComponent<RigidBody>();
 			GermBlobRenderer blobRenderer = this.GameObj.GetComponent<GermBlobRenderer>();
+
+			this.energy += Time.TimeMult * 0.001f * this.energyChargeRate;
 
 			float targetSpeed = MathF.Min(this.targetMovement.Length, 1.0f);
 			Vector2 targetDir = (this.targetMovement / MathF.Max(targetSpeed, 0.001f));
@@ -50,6 +64,7 @@ namespace Game
 
 			Vector2 targetDisplayedMoveDir = targetDir * (this.targetMovement.Length / (0.35f + this.targetMovement.Length));
 			blobRenderer.DisplayedMoveDir += (targetDisplayedMoveDir - blobRenderer.DisplayedMoveDir) * 0.05f * Time.TimeMult;
+			blobRenderer.DisplayedEnergyLevel += (this.energy - blobRenderer.DisplayedEnergyLevel) * 0.1f * Time.TimeMult;
 
 			// Perform a color shift
 			if (blobRenderer.SecondColor != blobRenderer.FirstColor)
@@ -69,5 +84,45 @@ namespace Game
 				blobRenderer.ColorShift = 0.0f;
 			}
 		}
+		void ICmpCollisionListener.OnCollisionBegin(Component sender, CollisionEventArgs args) { }
+		void ICmpCollisionListener.OnCollisionEnd(Component sender, CollisionEventArgs args) { }
+		void ICmpCollisionListener.OnCollisionSolve(Component sender, CollisionEventArgs args)
+		{
+			GermController otherGerm = args.CollideWith.GetComponent<GermController>();
+			if (otherGerm == null) return;
+
+			float colorTransfer = (args.CollisionData.NormalImpulse - 50.0f) / 100.0f;
+			if (colorTransfer > 0.0f)
+			{
+				if (this.color != otherGerm.color)
+				{
+					float remainingEnergy = this.energy - otherGerm.energy;
+					if (remainingEnergy > 0.0f)
+						otherGerm.color = this.color;
+					else
+						this.color = otherGerm.color;
+
+					this.energy = MathF.Abs(remainingEnergy) * 0.5f;
+					this.energyChargeRate = MathF.Rnd.NextFloat(0.05f, 1.0f);
+					otherGerm.energy = MathF.Abs(remainingEnergy) * 0.5f;
+					otherGerm.energyChargeRate = MathF.Rnd.NextFloat(0.05f, 1.0f);
+				}
+				else
+				{
+					float addedEnergy = this.energy + otherGerm.energy;
+
+					this.energy = addedEnergy * 0.5f;
+					otherGerm.energy = addedEnergy * 0.5f;
+				}
+			}
+		}
+		void ICmpInitializable.OnInit(InitContext context)
+		{
+			if (context == InitContext.Activate)
+			{
+				this.energyChargeRate = MathF.Rnd.NextFloat(0.05f, 1.0f);
+			}
+		}
+		void ICmpInitializable.OnShutdown(ShutdownContext context) { }
 	}
 }

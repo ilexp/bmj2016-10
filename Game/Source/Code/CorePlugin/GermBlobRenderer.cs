@@ -15,6 +15,7 @@ namespace Game
 		private ColorRgba tint = ColorRgba.White;
 		private ColorRgba firstColor = ColorRgba.White;
 		private ColorRgba secondColor = ColorRgba.White;
+		private float displayedEnergyLevel = 0.0f;
 		private float colorShift = 0.0f;
 		private float radius = 50.0f;
 		private float depthOffset = 0.0f;
@@ -59,6 +60,11 @@ namespace Game
 			get { return this.depthOffset; }
 			set { this.depthOffset = value; }
 		}
+		public float DisplayedEnergyLevel
+		{
+			get { return this.displayedEnergyLevel; }
+			set { this.displayedEnergyLevel = value; }
+		}
 		public Vector2 DisplayedMoveDir
 		{
 			get { return this.displayedMoveDir; }
@@ -91,6 +97,7 @@ namespace Game
 			this.materialInstance.SetUniform("FirstColor", this.firstColor.R / 255.0f, this.firstColor.G / 255.0f, this.firstColor.B / 255.0f, this.firstColor.A / 255.0f);
 			this.materialInstance.SetUniform("SecondColor", this.secondColor.R / 255.0f, this.secondColor.G / 255.0f, this.secondColor.B / 255.0f, this.secondColor.A / 255.0f);
 			this.materialInstance.SetUniform("ColorShift", this.colorShift);
+			this.materialInstance.SetUniform("EnergyLevel", this.displayedEnergyLevel);
 			device.AddVertices(this.materialInstance, VertexMode.Quads, this.vertices);
 		}
 		private void PrepareVertices(ref VertexC1P3T2[] vertices, IDrawDevice device, ColorRgba mainClr, Rect uvRect)

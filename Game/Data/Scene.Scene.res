@@ -128,6 +128,7 @@
                         <active dataType="Bool">true</active>
                         <colorShift dataType="Float">0</colorShift>
                         <depthOffset dataType="Float">0</depthOffset>
+                        <displayedEnergyLevel dataType="Float">0</displayedEnergyLevel>
                         <displayedMoveDir dataType="Struct" type="Duality.Vector2" />
                         <firstColor dataType="Struct" type="Duality.Drawing.ColorRgba">
                           <A dataType="Byte">255</A>
@@ -226,6 +227,7 @@
                         <active dataType="Bool">true</active>
                         <colorShift dataType="Float">0</colorShift>
                         <depthOffset dataType="Float">0</depthOffset>
+                        <displayedEnergyLevel dataType="Float">0</displayedEnergyLevel>
                         <displayedMoveDir dataType="Struct" type="Duality.Vector2" />
                         <firstColor dataType="Struct" type="Duality.Drawing.ColorRgba">
                           <A dataType="Byte">255</A>
@@ -324,6 +326,7 @@
                         <active dataType="Bool">true</active>
                         <colorShift dataType="Float">0</colorShift>
                         <depthOffset dataType="Float">0</depthOffset>
+                        <displayedEnergyLevel dataType="Float">0</displayedEnergyLevel>
                         <displayedMoveDir dataType="Struct" type="Duality.Vector2" />
                         <firstColor dataType="Struct" type="Duality.Drawing.ColorRgba">
                           <A dataType="Byte">255</A>
@@ -422,6 +425,7 @@
                         <active dataType="Bool">true</active>
                         <colorShift dataType="Float">0</colorShift>
                         <depthOffset dataType="Float">0</depthOffset>
+                        <displayedEnergyLevel dataType="Float">0</displayedEnergyLevel>
                         <displayedMoveDir dataType="Struct" type="Duality.Vector2" />
                         <firstColor dataType="Struct" type="Duality.Drawing.ColorRgba">
                           <A dataType="Byte">255</A>
@@ -520,6 +524,7 @@
                         <active dataType="Bool">true</active>
                         <colorShift dataType="Float">0</colorShift>
                         <depthOffset dataType="Float">0</depthOffset>
+                        <displayedEnergyLevel dataType="Float">0</displayedEnergyLevel>
                         <displayedMoveDir dataType="Struct" type="Duality.Vector2" />
                         <firstColor dataType="Struct" type="Duality.Drawing.ColorRgba">
                           <A dataType="Byte">255</A>
@@ -618,6 +623,7 @@
                         <active dataType="Bool">true</active>
                         <colorShift dataType="Float">0</colorShift>
                         <depthOffset dataType="Float">0</depthOffset>
+                        <displayedEnergyLevel dataType="Float">0</displayedEnergyLevel>
                         <displayedMoveDir dataType="Struct" type="Duality.Vector2" />
                         <firstColor dataType="Struct" type="Duality.Drawing.ColorRgba">
                           <A dataType="Byte">255</A>
@@ -716,6 +722,7 @@
                         <active dataType="Bool">true</active>
                         <colorShift dataType="Float">0</colorShift>
                         <depthOffset dataType="Float">0</depthOffset>
+                        <displayedEnergyLevel dataType="Float">0</displayedEnergyLevel>
                         <displayedMoveDir dataType="Struct" type="Duality.Vector2" />
                         <firstColor dataType="Struct" type="Duality.Drawing.ColorRgba">
                           <A dataType="Byte">255</A>
@@ -814,6 +821,7 @@
                         <active dataType="Bool">true</active>
                         <colorShift dataType="Float">0</colorShift>
                         <depthOffset dataType="Float">0</depthOffset>
+                        <displayedEnergyLevel dataType="Float">0</displayedEnergyLevel>
                         <displayedMoveDir dataType="Struct" type="Duality.Vector2" />
                         <firstColor dataType="Struct" type="Duality.Drawing.ColorRgba">
                           <A dataType="Byte">255</A>
@@ -1035,6 +1043,7 @@
                           <active dataType="Bool">true</active>
                           <colorShift dataType="Float">0</colorShift>
                           <depthOffset dataType="Float">0</depthOffset>
+                          <displayedEnergyLevel dataType="Float">0</displayedEnergyLevel>
                           <displayedMoveDir dataType="Struct" type="Duality.Vector2" />
                           <firstColor dataType="Struct" type="Duality.Drawing.ColorRgba">
                             <A dataType="Byte">255</A>
@@ -1099,10 +1108,12 @@
                           <active dataType="Bool">true</active>
                           <color dataType="Struct" type="Duality.Drawing.ColorRgba">
                             <A dataType="Byte">255</A>
-                            <B dataType="Byte">255</B>
+                            <B dataType="Byte">0</B>
                             <G dataType="Byte">255</G>
-                            <R dataType="Byte">255</R>
+                            <R dataType="Byte">206</R>
                           </color>
+                          <energy dataType="Float">0</energy>
+                          <energyChargeRate dataType="Float">0.519227862</energyChargeRate>
                           <gameobj dataType="ObjectRef">3261185991</gameobj>
                           <moveSpeed dataType="Float">5</moveSpeed>
                           <targetMovement dataType="Struct" type="Duality.Vector2" />
@@ -1146,7 +1157,7 @@
                             <active dataType="Bool">true</active>
                             <children />
                             <compList dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Component]]" id="3598607574">
-                              <_items dataType="Array" type="Duality.Component[]" id="2914447648">
+                              <_items dataType="Array" type="Duality.Component[]" id="2914447648" length="8">
                                 <item dataType="Struct" type="Duality.Components.Transform" id="3633936450">
                                   <active dataType="Bool">true</active>
                                   <angle dataType="Float">0</angle>
@@ -1176,6 +1187,7 @@
                                   <active dataType="Bool">true</active>
                                   <colorShift dataType="Float">0</colorShift>
                                   <depthOffset dataType="Float">0</depthOffset>
+                                  <displayedEnergyLevel dataType="Float">0</displayedEnergyLevel>
                                   <displayedMoveDir dataType="Struct" type="Duality.Vector2" />
                                   <firstColor dataType="Struct" type="Duality.Drawing.ColorRgba">
                                     <A dataType="Byte">255</A>
@@ -1240,17 +1252,23 @@
                                   <active dataType="Bool">true</active>
                                   <color dataType="Struct" type="Duality.Drawing.ColorRgba">
                                     <A dataType="Byte">255</A>
-                                    <B dataType="Byte">255</B>
-                                    <G dataType="Byte">255</G>
+                                    <B dataType="Byte">0</B>
+                                    <G dataType="Byte">0</G>
                                     <R dataType="Byte">255</R>
                                   </color>
+                                  <energy dataType="Float">0</energy>
+                                  <energyChargeRate dataType="Float">0.338317871</energyChargeRate>
                                   <gameobj dataType="ObjectRef">1273621518</gameobj>
                                   <moveSpeed dataType="Float">5</moveSpeed>
                                   <targetMovement dataType="Struct" type="Duality.Vector2" />
                                 </item>
+                                <item dataType="Struct" type="Game.GermAI" id="698492989">
+                                  <active dataType="Bool">true</active>
+                                  <gameobj dataType="ObjectRef">1273621518</gameobj>
+                                </item>
                               </_items>
-                              <_size dataType="Int">4</_size>
-                              <_version dataType="Int">4</_version>
+                              <_size dataType="Int">5</_size>
+                              <_version dataType="Int">5</_version>
                             </compList>
                             <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="1391137754" surrogate="true">
                               <header />
@@ -1260,12 +1278,14 @@
                                   <item dataType="ObjectRef">3368893742</item>
                                   <item dataType="ObjectRef">1826243552</item>
                                   <item dataType="ObjectRef">4026338190</item>
+                                  <item dataType="Type" id="4053300420" value="Game.GermAI" />
                                 </keys>
                                 <values dataType="Array" type="System.Object[]" id="2256121622">
                                   <item dataType="ObjectRef">3633936450</item>
                                   <item dataType="ObjectRef">3435837559</item>
                                   <item dataType="ObjectRef">41430746</item>
                                   <item dataType="ObjectRef">1502892217</item>
+                                  <item dataType="ObjectRef">698492989</item>
                                 </values>
                               </body>
                             </compMap>
@@ -1285,7 +1305,7 @@
                             <active dataType="Bool">true</active>
                             <children />
                             <compList dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Component]]" id="578469993">
-                              <_items dataType="Array" type="Duality.Component[]" id="4118657294">
+                              <_items dataType="Array" type="Duality.Component[]" id="4118657294" length="8">
                                 <item dataType="Struct" type="Duality.Components.Transform" id="2571769625">
                                   <active dataType="Bool">true</active>
                                   <angle dataType="Float">0</angle>
@@ -1315,6 +1335,7 @@
                                   <active dataType="Bool">true</active>
                                   <colorShift dataType="Float">0</colorShift>
                                   <depthOffset dataType="Float">0</depthOffset>
+                                  <displayedEnergyLevel dataType="Float">0</displayedEnergyLevel>
                                   <displayedMoveDir dataType="Struct" type="Duality.Vector2" />
                                   <firstColor dataType="Struct" type="Duality.Drawing.ColorRgba">
                                     <A dataType="Byte">255</A>
@@ -1380,16 +1401,22 @@
                                   <color dataType="Struct" type="Duality.Drawing.ColorRgba">
                                     <A dataType="Byte">255</A>
                                     <B dataType="Byte">255</B>
-                                    <G dataType="Byte">255</G>
-                                    <R dataType="Byte">255</R>
+                                    <G dataType="Byte">115</G>
+                                    <R dataType="Byte">0</R>
                                   </color>
+                                  <energy dataType="Float">0</energy>
+                                  <energyChargeRate dataType="Float">0.102546573</energyChargeRate>
                                   <gameobj dataType="ObjectRef">211454693</gameobj>
                                   <moveSpeed dataType="Float">5</moveSpeed>
                                   <targetMovement dataType="Struct" type="Duality.Vector2" />
                                 </item>
+                                <item dataType="Struct" type="Game.GermAI" id="3931293460">
+                                  <active dataType="Bool">true</active>
+                                  <gameobj dataType="ObjectRef">211454693</gameobj>
+                                </item>
                               </_items>
-                              <_size dataType="Int">4</_size>
-                              <_version dataType="Int">4</_version>
+                              <_size dataType="Int">5</_size>
+                              <_version dataType="Int">5</_version>
                             </compList>
                             <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="3044388544" surrogate="true">
                               <header />
@@ -1399,12 +1426,14 @@
                                   <item dataType="ObjectRef">3368893742</item>
                                   <item dataType="ObjectRef">1826243552</item>
                                   <item dataType="ObjectRef">4026338190</item>
+                                  <item dataType="ObjectRef">4053300420</item>
                                 </keys>
                                 <values dataType="Array" type="System.Object[]" id="763103992">
                                   <item dataType="ObjectRef">2571769625</item>
                                   <item dataType="ObjectRef">2373670734</item>
                                   <item dataType="ObjectRef">3274231217</item>
                                   <item dataType="ObjectRef">440725392</item>
+                                  <item dataType="ObjectRef">3931293460</item>
                                 </values>
                               </body>
                             </compMap>
@@ -1424,7 +1453,7 @@
                             <active dataType="Bool">true</active>
                             <children />
                             <compList dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Component]]" id="2275619967">
-                              <_items dataType="Array" type="Duality.Component[]" id="284095278">
+                              <_items dataType="Array" type="Duality.Component[]" id="284095278" length="8">
                                 <item dataType="Struct" type="Duality.Components.Transform" id="157614311">
                                   <active dataType="Bool">true</active>
                                   <angle dataType="Float">0</angle>
@@ -1454,6 +1483,7 @@
                                   <active dataType="Bool">true</active>
                                   <colorShift dataType="Float">0</colorShift>
                                   <depthOffset dataType="Float">0</depthOffset>
+                                  <displayedEnergyLevel dataType="Float">0</displayedEnergyLevel>
                                   <displayedMoveDir dataType="Struct" type="Duality.Vector2" />
                                   <firstColor dataType="Struct" type="Duality.Drawing.ColorRgba">
                                     <A dataType="Byte">255</A>
@@ -1518,17 +1548,23 @@
                                   <active dataType="Bool">true</active>
                                   <color dataType="Struct" type="Duality.Drawing.ColorRgba">
                                     <A dataType="Byte">255</A>
-                                    <B dataType="Byte">255</B>
-                                    <G dataType="Byte">255</G>
+                                    <B dataType="Byte">231</B>
+                                    <G dataType="Byte">0</G>
                                     <R dataType="Byte">255</R>
                                   </color>
+                                  <energy dataType="Float">0</energy>
+                                  <energyChargeRate dataType="Float">0.367382</energyChargeRate>
                                   <gameobj dataType="ObjectRef">2092266675</gameobj>
                                   <moveSpeed dataType="Float">5</moveSpeed>
                                   <targetMovement dataType="Struct" type="Duality.Vector2" />
                                 </item>
+                                <item dataType="Struct" type="Game.GermAI" id="1517138146">
+                                  <active dataType="Bool">true</active>
+                                  <gameobj dataType="ObjectRef">2092266675</gameobj>
+                                </item>
                               </_items>
-                              <_size dataType="Int">4</_size>
-                              <_version dataType="Int">4</_version>
+                              <_size dataType="Int">5</_size>
+                              <_version dataType="Int">5</_version>
                             </compList>
                             <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="1760958816" surrogate="true">
                               <header />
@@ -1538,12 +1574,14 @@
                                   <item dataType="ObjectRef">3368893742</item>
                                   <item dataType="ObjectRef">1826243552</item>
                                   <item dataType="ObjectRef">4026338190</item>
+                                  <item dataType="ObjectRef">4053300420</item>
                                 </keys>
                                 <values dataType="Array" type="System.Object[]" id="1846258504">
                                   <item dataType="ObjectRef">157614311</item>
                                   <item dataType="ObjectRef">4254482716</item>
                                   <item dataType="ObjectRef">860075903</item>
                                   <item dataType="ObjectRef">2321537374</item>
+                                  <item dataType="ObjectRef">1517138146</item>
                                 </values>
                               </body>
                             </compMap>
