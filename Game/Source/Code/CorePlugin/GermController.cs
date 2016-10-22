@@ -120,7 +120,10 @@ namespace Game
 		{
 			if (context == InitContext.Activate)
 			{
-				this.energyChargeRate = MathF.Rnd.NextFloat(0.05f, 1.0f);
+				if (this.color != ColorRgba.White)
+				{
+					this.energyChargeRate = MathF.Rnd.NextFloat(0.05f, 1.0f);
+				}
 			}
 		}
 		void ICmpInitializable.OnShutdown(ShutdownContext context) { }
