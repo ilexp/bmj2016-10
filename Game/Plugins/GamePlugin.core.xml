@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GamePlugin.core</name>
+    </assembly>
+    <members>
+        <member name="T:Game.GameCorePlugin">
+            <summary>
+            Defines a Duality core plugin.
+            </summary>
+        </member>
+        <member name="P:Game.CameraController.Smoothness">
+            <summary>
+            [GET / SET] How smooth the camera should follow its target.
+            </summary>
+        </member>
+    </members>
+</doc>

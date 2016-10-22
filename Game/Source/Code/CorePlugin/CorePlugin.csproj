@@ -58,7 +58,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CorePlugin.cs" />
-    <Compile Include="YourCustomComponentType.cs" />
+    <Compile Include="CameraController.cs" />
+    <Compile Include="Player.cs" />
+    <Compile Include="GermController.cs" />
+    <Compile Include="GermBlobRenderer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
