@@ -28,7 +28,7 @@ namespace Game
 				Vector2 direction = (otherPos - thisPos).Xy.Normalized;
 				controller.TargetMovement = direction;
 
-				VisualLog.Default.DrawConnection(thisPos.X, thisPos.Y, 0, otherPos.X, otherPos.Y);
+				//VisualLog.Default.DrawConnection(thisPos.X, thisPos.Y, 0, otherPos.X, otherPos.Y);
 			}
 			// Wander
 			else

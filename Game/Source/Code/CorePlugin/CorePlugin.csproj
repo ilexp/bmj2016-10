@@ -61,6 +61,7 @@
     <Compile Include="CameraController.cs" />
     <Compile Include="BackgroundGermController.cs" />
     <Compile Include="GermAI.cs" />
+    <Compile Include="GermStatsRenderer.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="GermController.cs" />
     <Compile Include="GermBlobRenderer.cs" />

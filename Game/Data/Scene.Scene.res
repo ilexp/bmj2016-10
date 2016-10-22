@@ -6664,7 +6664,7 @@
                     <active dataType="Bool">true</active>
                     <children />
                     <compList dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Component]]" id="2551957340">
-                      <_items dataType="Array" type="Duality.Component[]" id="2801574084">
+                      <_items dataType="Array" type="Duality.Component[]" id="2801574084" length="8">
                         <item dataType="Struct" type="Duality.Components.Transform" id="1326533627">
                           <active dataType="Bool">true</active>
                           <angle dataType="Float">0</angle>
@@ -6756,14 +6756,19 @@
                             <R dataType="Byte">206</R>
                           </color>
                           <energy dataType="Float">0</energy>
-                          <energyChargeRate dataType="Float">0.09507916</energyChargeRate>
+                          <energyChargeRate dataType="Float">0.4484297</energyChargeRate>
                           <gameobj dataType="ObjectRef">3261185991</gameobj>
                           <moveSpeed dataType="Float">5</moveSpeed>
                           <targetMovement dataType="Struct" type="Duality.Vector2" />
                         </item>
+                        <item dataType="Struct" type="Game.GermStatsRenderer" id="3849117478">
+                          <active dataType="Bool">true</active>
+                          <gameobj dataType="ObjectRef">3261185991</gameobj>
+                          <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
+                        </item>
                       </_items>
-                      <_size dataType="Int">4</_size>
-                      <_version dataType="Int">4</_version>
+                      <_size dataType="Int">5</_size>
+                      <_version dataType="Int">5</_version>
                     </compList>
                     <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="3332508438" surrogate="true">
                       <header />
@@ -6773,12 +6778,14 @@
                           <item dataType="ObjectRef">3368893742</item>
                           <item dataType="Type" id="1826243552" value="Duality.Components.Physics.RigidBody" />
                           <item dataType="Type" id="4026338190" value="Game.GermController" />
+                          <item dataType="Type" id="3301491452" value="Game.GermStatsRenderer" />
                         </keys>
                         <values dataType="Array" type="System.Object[]" id="2568353050">
                           <item dataType="ObjectRef">1326533627</item>
                           <item dataType="ObjectRef">1128434736</item>
                           <item dataType="ObjectRef">2028995219</item>
                           <item dataType="ObjectRef">3490456690</item>
+                          <item dataType="ObjectRef">3849117478</item>
                         </values>
                       </body>
                     </compMap>
@@ -6900,7 +6907,7 @@
                                     <R dataType="Byte">255</R>
                                   </color>
                                   <energy dataType="Float">0</energy>
-                                  <energyChargeRate dataType="Float">0.629925</energyChargeRate>
+                                  <energyChargeRate dataType="Float">0.7990134</energyChargeRate>
                                   <gameobj dataType="ObjectRef">1273621518</gameobj>
                                   <moveSpeed dataType="Float">5</moveSpeed>
                                   <targetMovement dataType="Struct" type="Duality.Vector2" />
@@ -6909,9 +6916,14 @@
                                   <active dataType="Bool">true</active>
                                   <gameobj dataType="ObjectRef">1273621518</gameobj>
                                 </item>
+                                <item dataType="Struct" type="Game.GermStatsRenderer" id="1861553005">
+                                  <active dataType="Bool">true</active>
+                                  <gameobj dataType="ObjectRef">1273621518</gameobj>
+                                  <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
+                                </item>
                               </_items>
-                              <_size dataType="Int">5</_size>
-                              <_version dataType="Int">5</_version>
+                              <_size dataType="Int">6</_size>
+                              <_version dataType="Int">6</_version>
                             </compList>
                             <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="1391137754" surrogate="true">
                               <header />
@@ -6922,6 +6934,7 @@
                                   <item dataType="ObjectRef">1826243552</item>
                                   <item dataType="ObjectRef">4026338190</item>
                                   <item dataType="Type" id="4053300420" value="Game.GermAI" />
+                                  <item dataType="ObjectRef">3301491452</item>
                                 </keys>
                                 <values dataType="Array" type="System.Object[]" id="2256121622">
                                   <item dataType="ObjectRef">3633936450</item>
@@ -6929,6 +6942,7 @@
                                   <item dataType="ObjectRef">41430746</item>
                                   <item dataType="ObjectRef">1502892217</item>
                                   <item dataType="ObjectRef">698492989</item>
+                                  <item dataType="ObjectRef">1861553005</item>
                                 </values>
                               </body>
                             </compMap>
@@ -7048,7 +7062,7 @@
                                     <R dataType="Byte">0</R>
                                   </color>
                                   <energy dataType="Float">0</energy>
-                                  <energyChargeRate dataType="Float">0.9061086</energyChargeRate>
+                                  <energyChargeRate dataType="Float">0.8080466</energyChargeRate>
                                   <gameobj dataType="ObjectRef">211454693</gameobj>
                                   <moveSpeed dataType="Float">5</moveSpeed>
                                   <targetMovement dataType="Struct" type="Duality.Vector2" />
@@ -7057,9 +7071,14 @@
                                   <active dataType="Bool">true</active>
                                   <gameobj dataType="ObjectRef">211454693</gameobj>
                                 </item>
+                                <item dataType="Struct" type="Game.GermStatsRenderer" id="799386180">
+                                  <active dataType="Bool">true</active>
+                                  <gameobj dataType="ObjectRef">211454693</gameobj>
+                                  <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
+                                </item>
                               </_items>
-                              <_size dataType="Int">5</_size>
-                              <_version dataType="Int">5</_version>
+                              <_size dataType="Int">6</_size>
+                              <_version dataType="Int">6</_version>
                             </compList>
                             <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="3044388544" surrogate="true">
                               <header />
@@ -7070,6 +7089,7 @@
                                   <item dataType="ObjectRef">1826243552</item>
                                   <item dataType="ObjectRef">4026338190</item>
                                   <item dataType="ObjectRef">4053300420</item>
+                                  <item dataType="ObjectRef">3301491452</item>
                                 </keys>
                                 <values dataType="Array" type="System.Object[]" id="763103992">
                                   <item dataType="ObjectRef">2571769625</item>
@@ -7077,6 +7097,7 @@
                                   <item dataType="ObjectRef">3274231217</item>
                                   <item dataType="ObjectRef">440725392</item>
                                   <item dataType="ObjectRef">3931293460</item>
+                                  <item dataType="ObjectRef">799386180</item>
                                 </values>
                               </body>
                             </compMap>
@@ -7196,7 +7217,7 @@
                                     <R dataType="Byte">255</R>
                                   </color>
                                   <energy dataType="Float">0</energy>
-                                  <energyChargeRate dataType="Float">0.1579137</energyChargeRate>
+                                  <energyChargeRate dataType="Float">0.0781343058</energyChargeRate>
                                   <gameobj dataType="ObjectRef">2092266675</gameobj>
                                   <moveSpeed dataType="Float">5</moveSpeed>
                                   <targetMovement dataType="Struct" type="Duality.Vector2" />
@@ -7205,9 +7226,14 @@
                                   <active dataType="Bool">true</active>
                                   <gameobj dataType="ObjectRef">2092266675</gameobj>
                                 </item>
+                                <item dataType="Struct" type="Game.GermStatsRenderer" id="2680198162">
+                                  <active dataType="Bool">true</active>
+                                  <gameobj dataType="ObjectRef">2092266675</gameobj>
+                                  <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
+                                </item>
                               </_items>
-                              <_size dataType="Int">5</_size>
-                              <_version dataType="Int">5</_version>
+                              <_size dataType="Int">6</_size>
+                              <_version dataType="Int">6</_version>
                             </compList>
                             <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="1760958816" surrogate="true">
                               <header />
@@ -7218,6 +7244,7 @@
                                   <item dataType="ObjectRef">1826243552</item>
                                   <item dataType="ObjectRef">4026338190</item>
                                   <item dataType="ObjectRef">4053300420</item>
+                                  <item dataType="ObjectRef">3301491452</item>
                                 </keys>
                                 <values dataType="Array" type="System.Object[]" id="1846258504">
                                   <item dataType="ObjectRef">157614311</item>
@@ -7225,6 +7252,7 @@
                                   <item dataType="ObjectRef">860075903</item>
                                   <item dataType="ObjectRef">2321537374</item>
                                   <item dataType="ObjectRef">1517138146</item>
+                                  <item dataType="ObjectRef">2680198162</item>
                                 </values>
                               </body>
                             </compMap>
@@ -7353,9 +7381,14 @@
                                   <active dataType="Bool">true</active>
                                   <gameobj dataType="ObjectRef">2740221807</gameobj>
                                 </item>
+                                <item dataType="Struct" type="Game.GermStatsRenderer" id="3328153294">
+                                  <active dataType="Bool">true</active>
+                                  <gameobj dataType="ObjectRef">2740221807</gameobj>
+                                  <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
+                                </item>
                               </_items>
-                              <_size dataType="Int">5</_size>
-                              <_version dataType="Int">5</_version>
+                              <_size dataType="Int">6</_size>
+                              <_version dataType="Int">6</_version>
                             </compList>
                             <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="2876052408" surrogate="true">
                               <header />
@@ -7366,6 +7399,7 @@
                                   <item dataType="ObjectRef">1826243552</item>
                                   <item dataType="ObjectRef">4026338190</item>
                                   <item dataType="ObjectRef">4053300420</item>
+                                  <item dataType="ObjectRef">3301491452</item>
                                 </keys>
                                 <values dataType="Array" type="System.Object[]" id="1485679488">
                                   <item dataType="ObjectRef">805569443</item>
@@ -7373,6 +7407,7 @@
                                   <item dataType="ObjectRef">1508031035</item>
                                   <item dataType="ObjectRef">2969492506</item>
                                   <item dataType="ObjectRef">2165093278</item>
+                                  <item dataType="ObjectRef">3328153294</item>
                                 </values>
                               </body>
                             </compMap>
@@ -7501,9 +7536,14 @@
                                   <active dataType="Bool">true</active>
                                   <gameobj dataType="ObjectRef">3878563780</gameobj>
                                 </item>
+                                <item dataType="Struct" type="Game.GermStatsRenderer" id="171527971">
+                                  <active dataType="Bool">true</active>
+                                  <gameobj dataType="ObjectRef">3878563780</gameobj>
+                                  <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
+                                </item>
                               </_items>
-                              <_size dataType="Int">5</_size>
-                              <_version dataType="Int">5</_version>
+                              <_size dataType="Int">6</_size>
+                              <_version dataType="Int">6</_version>
                             </compList>
                             <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="2304302870" surrogate="true">
                               <header />
@@ -7514,6 +7554,7 @@
                                   <item dataType="ObjectRef">1826243552</item>
                                   <item dataType="ObjectRef">4026338190</item>
                                   <item dataType="ObjectRef">4053300420</item>
+                                  <item dataType="ObjectRef">3301491452</item>
                                 </keys>
                                 <values dataType="Array" type="System.Object[]" id="2522388426">
                                   <item dataType="ObjectRef">1943911416</item>
@@ -7521,6 +7562,7 @@
                                   <item dataType="ObjectRef">2646373008</item>
                                   <item dataType="ObjectRef">4107834479</item>
                                   <item dataType="ObjectRef">3303435251</item>
+                                  <item dataType="ObjectRef">171527971</item>
                                 </values>
                               </body>
                             </compMap>
@@ -7649,9 +7691,14 @@
                                   <active dataType="Bool">true</active>
                                   <gameobj dataType="ObjectRef">1563542905</gameobj>
                                 </item>
+                                <item dataType="Struct" type="Game.GermStatsRenderer" id="2151474392">
+                                  <active dataType="Bool">true</active>
+                                  <gameobj dataType="ObjectRef">1563542905</gameobj>
+                                  <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
+                                </item>
                               </_items>
-                              <_size dataType="Int">5</_size>
-                              <_version dataType="Int">5</_version>
+                              <_size dataType="Int">6</_size>
+                              <_version dataType="Int">6</_version>
                             </compList>
                             <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="3712872552" surrogate="true">
                               <header />
@@ -7662,6 +7709,7 @@
                                   <item dataType="ObjectRef">1826243552</item>
                                   <item dataType="ObjectRef">4026338190</item>
                                   <item dataType="ObjectRef">4053300420</item>
+                                  <item dataType="ObjectRef">3301491452</item>
                                 </keys>
                                 <values dataType="Array" type="System.Object[]" id="2820916320">
                                   <item dataType="ObjectRef">3923857837</item>
@@ -7669,6 +7717,7 @@
                                   <item dataType="ObjectRef">331352133</item>
                                   <item dataType="ObjectRef">1792813604</item>
                                   <item dataType="ObjectRef">988414376</item>
+                                  <item dataType="ObjectRef">2151474392</item>
                                 </values>
                               </body>
                             </compMap>
@@ -7797,9 +7846,14 @@
                                   <active dataType="Bool">true</active>
                                   <gameobj dataType="ObjectRef">128530025</gameobj>
                                 </item>
+                                <item dataType="Struct" type="Game.GermStatsRenderer" id="716461512">
+                                  <active dataType="Bool">true</active>
+                                  <gameobj dataType="ObjectRef">128530025</gameobj>
+                                  <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
+                                </item>
                               </_items>
-                              <_size dataType="Int">5</_size>
-                              <_version dataType="Int">5</_version>
+                              <_size dataType="Int">6</_size>
+                              <_version dataType="Int">6</_version>
                             </compList>
                             <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="1282260680" surrogate="true">
                               <header />
@@ -7810,6 +7864,7 @@
                                   <item dataType="ObjectRef">1826243552</item>
                                   <item dataType="ObjectRef">4026338190</item>
                                   <item dataType="ObjectRef">4053300420</item>
+                                  <item dataType="ObjectRef">3301491452</item>
                                 </keys>
                                 <values dataType="Array" type="System.Object[]" id="3996492000">
                                   <item dataType="ObjectRef">2488844957</item>
@@ -7817,6 +7872,7 @@
                                   <item dataType="ObjectRef">3191306549</item>
                                   <item dataType="ObjectRef">357800724</item>
                                   <item dataType="ObjectRef">3848368792</item>
+                                  <item dataType="ObjectRef">716461512</item>
                                 </values>
                               </body>
                             </compMap>
@@ -7945,9 +8001,14 @@
                                   <active dataType="Bool">true</active>
                                   <gameobj dataType="ObjectRef">2518140090</gameobj>
                                 </item>
+                                <item dataType="Struct" type="Game.GermStatsRenderer" id="3106071577">
+                                  <active dataType="Bool">true</active>
+                                  <gameobj dataType="ObjectRef">2518140090</gameobj>
+                                  <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
+                                </item>
                               </_items>
-                              <_size dataType="Int">5</_size>
-                              <_version dataType="Int">5</_version>
+                              <_size dataType="Int">6</_size>
+                              <_version dataType="Int">6</_version>
                             </compList>
                             <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="2785014586" surrogate="true">
                               <header />
@@ -7958,6 +8019,7 @@
                                   <item dataType="ObjectRef">1826243552</item>
                                   <item dataType="ObjectRef">4026338190</item>
                                   <item dataType="ObjectRef">4053300420</item>
+                                  <item dataType="ObjectRef">3301491452</item>
                                 </keys>
                                 <values dataType="Array" type="System.Object[]" id="156175438">
                                   <item dataType="ObjectRef">583487726</item>
@@ -7965,6 +8027,7 @@
                                   <item dataType="ObjectRef">1285949318</item>
                                   <item dataType="ObjectRef">2747410789</item>
                                   <item dataType="ObjectRef">1943011561</item>
+                                  <item dataType="ObjectRef">3106071577</item>
                                 </values>
                               </body>
                             </compMap>
@@ -8093,9 +8156,14 @@
                                   <active dataType="Bool">true</active>
                                   <gameobj dataType="ObjectRef">3916852896</gameobj>
                                 </item>
+                                <item dataType="Struct" type="Game.GermStatsRenderer" id="209817087">
+                                  <active dataType="Bool">true</active>
+                                  <gameobj dataType="ObjectRef">3916852896</gameobj>
+                                  <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
+                                </item>
                               </_items>
-                              <_size dataType="Int">5</_size>
-                              <_version dataType="Int">5</_version>
+                              <_size dataType="Int">6</_size>
+                              <_version dataType="Int">6</_version>
                             </compList>
                             <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="1598132446" surrogate="true">
                               <header />
@@ -8106,6 +8174,7 @@
                                   <item dataType="ObjectRef">1826243552</item>
                                   <item dataType="ObjectRef">4026338190</item>
                                   <item dataType="ObjectRef">4053300420</item>
+                                  <item dataType="ObjectRef">3301491452</item>
                                 </keys>
                                 <values dataType="Array" type="System.Object[]" id="2018422298">
                                   <item dataType="ObjectRef">1982200532</item>
@@ -8113,6 +8182,7 @@
                                   <item dataType="ObjectRef">2684662124</item>
                                   <item dataType="ObjectRef">4146123595</item>
                                   <item dataType="ObjectRef">3341724367</item>
+                                  <item dataType="ObjectRef">209817087</item>
                                 </values>
                               </body>
                             </compMap>
@@ -8241,9 +8311,14 @@
                                   <active dataType="Bool">true</active>
                                   <gameobj dataType="ObjectRef">758851249</gameobj>
                                 </item>
+                                <item dataType="Struct" type="Game.GermStatsRenderer" id="1346782736">
+                                  <active dataType="Bool">true</active>
+                                  <gameobj dataType="ObjectRef">758851249</gameobj>
+                                  <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
+                                </item>
                               </_items>
-                              <_size dataType="Int">5</_size>
-                              <_version dataType="Int">5</_version>
+                              <_size dataType="Int">6</_size>
+                              <_version dataType="Int">6</_version>
                             </compList>
                             <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="3526004344" surrogate="true">
                               <header />
@@ -8254,6 +8329,7 @@
                                   <item dataType="ObjectRef">1826243552</item>
                                   <item dataType="ObjectRef">4026338190</item>
                                   <item dataType="ObjectRef">4053300420</item>
+                                  <item dataType="ObjectRef">3301491452</item>
                                 </keys>
                                 <values dataType="Array" type="System.Object[]" id="1391233792">
                                   <item dataType="ObjectRef">3119166181</item>
@@ -8261,6 +8337,7 @@
                                   <item dataType="ObjectRef">3821627773</item>
                                   <item dataType="ObjectRef">988121948</item>
                                   <item dataType="ObjectRef">183722720</item>
+                                  <item dataType="ObjectRef">1346782736</item>
                                 </values>
                               </body>
                             </compMap>
@@ -8389,9 +8466,14 @@
                                   <active dataType="Bool">true</active>
                                   <gameobj dataType="ObjectRef">2399942741</gameobj>
                                 </item>
+                                <item dataType="Struct" type="Game.GermStatsRenderer" id="2987874228">
+                                  <active dataType="Bool">true</active>
+                                  <gameobj dataType="ObjectRef">2399942741</gameobj>
+                                  <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
+                                </item>
                               </_items>
-                              <_size dataType="Int">5</_size>
-                              <_version dataType="Int">5</_version>
+                              <_size dataType="Int">6</_size>
+                              <_version dataType="Int">6</_version>
                             </compList>
                             <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="944216576" surrogate="true">
                               <header />
@@ -8402,6 +8484,7 @@
                                   <item dataType="ObjectRef">1826243552</item>
                                   <item dataType="ObjectRef">4026338190</item>
                                   <item dataType="ObjectRef">4053300420</item>
+                                  <item dataType="ObjectRef">3301491452</item>
                                 </keys>
                                 <values dataType="Array" type="System.Object[]" id="817193400">
                                   <item dataType="ObjectRef">465290377</item>
@@ -8409,6 +8492,7 @@
                                   <item dataType="ObjectRef">1167751969</item>
                                   <item dataType="ObjectRef">2629213440</item>
                                   <item dataType="ObjectRef">1824814212</item>
+                                  <item dataType="ObjectRef">2987874228</item>
                                 </values>
                               </body>
                             </compMap>
@@ -8537,9 +8621,14 @@
                                   <active dataType="Bool">true</active>
                                   <gameobj dataType="ObjectRef">1447489931</gameobj>
                                 </item>
+                                <item dataType="Struct" type="Game.GermStatsRenderer" id="2035421418">
+                                  <active dataType="Bool">true</active>
+                                  <gameobj dataType="ObjectRef">1447489931</gameobj>
+                                  <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
+                                </item>
                               </_items>
-                              <_size dataType="Int">5</_size>
-                              <_version dataType="Int">5</_version>
+                              <_size dataType="Int">6</_size>
+                              <_version dataType="Int">6</_version>
                             </compList>
                             <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="2356207232" surrogate="true">
                               <header />
@@ -8550,6 +8639,7 @@
                                   <item dataType="ObjectRef">1826243552</item>
                                   <item dataType="ObjectRef">4026338190</item>
                                   <item dataType="ObjectRef">4053300420</item>
+                                  <item dataType="ObjectRef">3301491452</item>
                                 </keys>
                                 <values dataType="Array" type="System.Object[]" id="3833625464">
                                   <item dataType="ObjectRef">3807804863</item>
@@ -8557,6 +8647,7 @@
                                   <item dataType="ObjectRef">215299159</item>
                                   <item dataType="ObjectRef">1676760630</item>
                                   <item dataType="ObjectRef">872361402</item>
+                                  <item dataType="ObjectRef">2035421418</item>
                                 </values>
                               </body>
                             </compMap>
@@ -8685,9 +8776,14 @@
                                   <active dataType="Bool">true</active>
                                   <gameobj dataType="ObjectRef">4109498846</gameobj>
                                 </item>
+                                <item dataType="Struct" type="Game.GermStatsRenderer" id="402463037">
+                                  <active dataType="Bool">true</active>
+                                  <gameobj dataType="ObjectRef">4109498846</gameobj>
+                                  <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
+                                </item>
                               </_items>
-                              <_size dataType="Int">5</_size>
-                              <_version dataType="Int">5</_version>
+                              <_size dataType="Int">6</_size>
+                              <_version dataType="Int">6</_version>
                             </compList>
                             <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="3439231418" surrogate="true">
                               <header />
@@ -8698,6 +8794,7 @@
                                   <item dataType="ObjectRef">1826243552</item>
                                   <item dataType="ObjectRef">4026338190</item>
                                   <item dataType="ObjectRef">4053300420</item>
+                                  <item dataType="ObjectRef">3301491452</item>
                                 </keys>
                                 <values dataType="Array" type="System.Object[]" id="2523260726">
                                   <item dataType="ObjectRef">2174846482</item>
@@ -8705,6 +8802,7 @@
                                   <item dataType="ObjectRef">2877308074</item>
                                   <item dataType="ObjectRef">43802249</item>
                                   <item dataType="ObjectRef">3534370317</item>
+                                  <item dataType="ObjectRef">402463037</item>
                                 </values>
                               </body>
                             </compMap>
@@ -8833,9 +8931,14 @@
                                   <active dataType="Bool">true</active>
                                   <gameobj dataType="ObjectRef">825119561</gameobj>
                                 </item>
+                                <item dataType="Struct" type="Game.GermStatsRenderer" id="1413051048">
+                                  <active dataType="Bool">true</active>
+                                  <gameobj dataType="ObjectRef">825119561</gameobj>
+                                  <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
+                                </item>
                               </_items>
-                              <_size dataType="Int">5</_size>
-                              <_version dataType="Int">5</_version>
+                              <_size dataType="Int">6</_size>
+                              <_version dataType="Int">6</_version>
                             </compList>
                             <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="944970440" surrogate="true">
                               <header />
@@ -8846,6 +8949,7 @@
                                   <item dataType="ObjectRef">1826243552</item>
                                   <item dataType="ObjectRef">4026338190</item>
                                   <item dataType="ObjectRef">4053300420</item>
+                                  <item dataType="ObjectRef">3301491452</item>
                                 </keys>
                                 <values dataType="Array" type="System.Object[]" id="6922016">
                                   <item dataType="ObjectRef">3185434493</item>
@@ -8853,6 +8957,7 @@
                                   <item dataType="ObjectRef">3887896085</item>
                                   <item dataType="ObjectRef">1054390260</item>
                                   <item dataType="ObjectRef">249991032</item>
+                                  <item dataType="ObjectRef">1413051048</item>
                                 </values>
                               </body>
                             </compMap>
@@ -8981,9 +9086,14 @@
                                   <active dataType="Bool">true</active>
                                   <gameobj dataType="ObjectRef">3675335666</gameobj>
                                 </item>
+                                <item dataType="Struct" type="Game.GermStatsRenderer" id="4263267153">
+                                  <active dataType="Bool">true</active>
+                                  <gameobj dataType="ObjectRef">3675335666</gameobj>
+                                  <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
+                                </item>
                               </_items>
-                              <_size dataType="Int">5</_size>
-                              <_version dataType="Int">5</_version>
+                              <_size dataType="Int">6</_size>
+                              <_version dataType="Int">6</_version>
                             </compList>
                             <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="965293962" surrogate="true">
                               <header />
@@ -8994,6 +9104,7 @@
                                   <item dataType="ObjectRef">1826243552</item>
                                   <item dataType="ObjectRef">4026338190</item>
                                   <item dataType="ObjectRef">4053300420</item>
+                                  <item dataType="ObjectRef">3301491452</item>
                                 </keys>
                                 <values dataType="Array" type="System.Object[]" id="2438246558">
                                   <item dataType="ObjectRef">1740683302</item>
@@ -9001,6 +9112,7 @@
                                   <item dataType="ObjectRef">2443144894</item>
                                   <item dataType="ObjectRef">3904606365</item>
                                   <item dataType="ObjectRef">3100207137</item>
+                                  <item dataType="ObjectRef">4263267153</item>
                                 </values>
                               </body>
                             </compMap>
@@ -9129,9 +9241,14 @@
                                   <active dataType="Bool">true</active>
                                   <gameobj dataType="ObjectRef">2664342356</gameobj>
                                 </item>
+                                <item dataType="Struct" type="Game.GermStatsRenderer" id="3252273843">
+                                  <active dataType="Bool">true</active>
+                                  <gameobj dataType="ObjectRef">2664342356</gameobj>
+                                  <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
+                                </item>
                               </_items>
-                              <_size dataType="Int">5</_size>
-                              <_version dataType="Int">5</_version>
+                              <_size dataType="Int">6</_size>
+                              <_version dataType="Int">6</_version>
                             </compList>
                             <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="601707510" surrogate="true">
                               <header />
@@ -9142,6 +9259,7 @@
                                   <item dataType="ObjectRef">1826243552</item>
                                   <item dataType="ObjectRef">4026338190</item>
                                   <item dataType="ObjectRef">4053300420</item>
+                                  <item dataType="ObjectRef">3301491452</item>
                                 </keys>
                                 <values dataType="Array" type="System.Object[]" id="1231260042">
                                   <item dataType="ObjectRef">729689992</item>
@@ -9149,6 +9267,7 @@
                                   <item dataType="ObjectRef">1432151584</item>
                                   <item dataType="ObjectRef">2893613055</item>
                                   <item dataType="ObjectRef">2089213827</item>
+                                  <item dataType="ObjectRef">3252273843</item>
                                 </values>
                               </body>
                             </compMap>
@@ -9277,9 +9396,14 @@
                                   <active dataType="Bool">true</active>
                                   <gameobj dataType="ObjectRef">4106209847</gameobj>
                                 </item>
+                                <item dataType="Struct" type="Game.GermStatsRenderer" id="399174038">
+                                  <active dataType="Bool">true</active>
+                                  <gameobj dataType="ObjectRef">4106209847</gameobj>
+                                  <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
+                                </item>
                               </_items>
-                              <_size dataType="Int">5</_size>
-                              <_version dataType="Int">5</_version>
+                              <_size dataType="Int">6</_size>
+                              <_version dataType="Int">6</_version>
                             </compList>
                             <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="1490251976" surrogate="true">
                               <header />
@@ -9290,6 +9414,7 @@
                                   <item dataType="ObjectRef">1826243552</item>
                                   <item dataType="ObjectRef">4026338190</item>
                                   <item dataType="ObjectRef">4053300420</item>
+                                  <item dataType="ObjectRef">3301491452</item>
                                 </keys>
                                 <values dataType="Array" type="System.Object[]" id="4268465440">
                                   <item dataType="ObjectRef">2171557483</item>
@@ -9297,6 +9422,7 @@
                                   <item dataType="ObjectRef">2874019075</item>
                                   <item dataType="ObjectRef">40513250</item>
                                   <item dataType="ObjectRef">3531081318</item>
+                                  <item dataType="ObjectRef">399174038</item>
                                 </values>
                               </body>
                             </compMap>
@@ -9425,9 +9551,14 @@
                                   <active dataType="Bool">true</active>
                                   <gameobj dataType="ObjectRef">2157028051</gameobj>
                                 </item>
+                                <item dataType="Struct" type="Game.GermStatsRenderer" id="2744959538">
+                                  <active dataType="Bool">true</active>
+                                  <gameobj dataType="ObjectRef">2157028051</gameobj>
+                                  <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
+                                </item>
                               </_items>
-                              <_size dataType="Int">5</_size>
-                              <_version dataType="Int">5</_version>
+                              <_size dataType="Int">6</_size>
+                              <_version dataType="Int">6</_version>
                             </compList>
                             <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="3081910816" surrogate="true">
                               <header />
@@ -9438,6 +9569,7 @@
                                   <item dataType="ObjectRef">1826243552</item>
                                   <item dataType="ObjectRef">4026338190</item>
                                   <item dataType="ObjectRef">4053300420</item>
+                                  <item dataType="ObjectRef">3301491452</item>
                                 </keys>
                                 <values dataType="Array" type="System.Object[]" id="942900936">
                                   <item dataType="ObjectRef">222375687</item>
@@ -9445,6 +9577,7 @@
                                   <item dataType="ObjectRef">924837279</item>
                                   <item dataType="ObjectRef">2386298750</item>
                                   <item dataType="ObjectRef">1581899522</item>
+                                  <item dataType="ObjectRef">2744959538</item>
                                 </values>
                               </body>
                             </compMap>
@@ -9573,9 +9706,14 @@
                                   <active dataType="Bool">true</active>
                                   <gameobj dataType="ObjectRef">2029910116</gameobj>
                                 </item>
+                                <item dataType="Struct" type="Game.GermStatsRenderer" id="2617841603">
+                                  <active dataType="Bool">true</active>
+                                  <gameobj dataType="ObjectRef">2029910116</gameobj>
+                                  <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
+                                </item>
                               </_items>
-                              <_size dataType="Int">5</_size>
-                              <_version dataType="Int">5</_version>
+                              <_size dataType="Int">6</_size>
+                              <_version dataType="Int">6</_version>
                             </compList>
                             <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="746677142" surrogate="true">
                               <header />
@@ -9586,6 +9724,7 @@
                                   <item dataType="ObjectRef">1826243552</item>
                                   <item dataType="ObjectRef">4026338190</item>
                                   <item dataType="ObjectRef">4053300420</item>
+                                  <item dataType="ObjectRef">3301491452</item>
                                 </keys>
                                 <values dataType="Array" type="System.Object[]" id="2718422602">
                                   <item dataType="ObjectRef">95257752</item>
@@ -9593,6 +9732,7 @@
                                   <item dataType="ObjectRef">797719344</item>
                                   <item dataType="ObjectRef">2259180815</item>
                                   <item dataType="ObjectRef">1454781587</item>
+                                  <item dataType="ObjectRef">2617841603</item>
                                 </values>
                               </body>
                             </compMap>
@@ -9721,9 +9861,14 @@
                                   <active dataType="Bool">true</active>
                                   <gameobj dataType="ObjectRef">2658816201</gameobj>
                                 </item>
+                                <item dataType="Struct" type="Game.GermStatsRenderer" id="3246747688">
+                                  <active dataType="Bool">true</active>
+                                  <gameobj dataType="ObjectRef">2658816201</gameobj>
+                                  <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
+                                </item>
                               </_items>
-                              <_size dataType="Int">5</_size>
-                              <_version dataType="Int">5</_version>
+                              <_size dataType="Int">6</_size>
+                              <_version dataType="Int">6</_version>
                             </compList>
                             <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="1952195272" surrogate="true">
                               <header />
@@ -9734,6 +9879,7 @@
                                   <item dataType="ObjectRef">1826243552</item>
                                   <item dataType="ObjectRef">4026338190</item>
                                   <item dataType="ObjectRef">4053300420</item>
+                                  <item dataType="ObjectRef">3301491452</item>
                                 </keys>
                                 <values dataType="Array" type="System.Object[]" id="1094517024">
                                   <item dataType="ObjectRef">724163837</item>
@@ -9741,6 +9887,7 @@
                                   <item dataType="ObjectRef">1426625429</item>
                                   <item dataType="ObjectRef">2888086900</item>
                                   <item dataType="ObjectRef">2083687672</item>
+                                  <item dataType="ObjectRef">3246747688</item>
                                 </values>
                               </body>
                             </compMap>
@@ -9869,9 +10016,14 @@
                                   <active dataType="Bool">true</active>
                                   <gameobj dataType="ObjectRef">587483300</gameobj>
                                 </item>
+                                <item dataType="Struct" type="Game.GermStatsRenderer" id="1175414787">
+                                  <active dataType="Bool">true</active>
+                                  <gameobj dataType="ObjectRef">587483300</gameobj>
+                                  <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
+                                </item>
                               </_items>
-                              <_size dataType="Int">5</_size>
-                              <_version dataType="Int">5</_version>
+                              <_size dataType="Int">6</_size>
+                              <_version dataType="Int">6</_version>
                             </compList>
                             <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="853985174" surrogate="true">
                               <header />
@@ -9882,6 +10034,7 @@
                                   <item dataType="ObjectRef">1826243552</item>
                                   <item dataType="ObjectRef">4026338190</item>
                                   <item dataType="ObjectRef">4053300420</item>
+                                  <item dataType="ObjectRef">3301491452</item>
                                 </keys>
                                 <values dataType="Array" type="System.Object[]" id="238819658">
                                   <item dataType="ObjectRef">2947798232</item>
@@ -9889,6 +10042,7 @@
                                   <item dataType="ObjectRef">3650259824</item>
                                   <item dataType="ObjectRef">816753999</item>
                                   <item dataType="ObjectRef">12354771</item>
+                                  <item dataType="ObjectRef">1175414787</item>
                                 </values>
                               </body>
                             </compMap>
@@ -10017,9 +10171,14 @@
                                   <active dataType="Bool">true</active>
                                   <gameobj dataType="ObjectRef">1589126127</gameobj>
                                 </item>
+                                <item dataType="Struct" type="Game.GermStatsRenderer" id="2177057614">
+                                  <active dataType="Bool">true</active>
+                                  <gameobj dataType="ObjectRef">1589126127</gameobj>
+                                  <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
+                                </item>
                               </_items>
-                              <_size dataType="Int">5</_size>
-                              <_version dataType="Int">5</_version>
+                              <_size dataType="Int">6</_size>
+                              <_version dataType="Int">6</_version>
                             </compList>
                             <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="3827358136" surrogate="true">
                               <header />
@@ -10030,6 +10189,7 @@
                                   <item dataType="ObjectRef">1826243552</item>
                                   <item dataType="ObjectRef">4026338190</item>
                                   <item dataType="ObjectRef">4053300420</item>
+                                  <item dataType="ObjectRef">3301491452</item>
                                 </keys>
                                 <values dataType="Array" type="System.Object[]" id="322199168">
                                   <item dataType="ObjectRef">3949441059</item>
@@ -10037,6 +10197,7 @@
                                   <item dataType="ObjectRef">356935355</item>
                                   <item dataType="ObjectRef">1818396826</item>
                                   <item dataType="ObjectRef">1013997598</item>
+                                  <item dataType="ObjectRef">2177057614</item>
                                 </values>
                               </body>
                             </compMap>
@@ -10165,9 +10326,14 @@
                                   <active dataType="Bool">true</active>
                                   <gameobj dataType="ObjectRef">2103824863</gameobj>
                                 </item>
+                                <item dataType="Struct" type="Game.GermStatsRenderer" id="2691756350">
+                                  <active dataType="Bool">true</active>
+                                  <gameobj dataType="ObjectRef">2103824863</gameobj>
+                                  <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
+                                </item>
                               </_items>
-                              <_size dataType="Int">5</_size>
-                              <_version dataType="Int">5</_version>
+                              <_size dataType="Int">6</_size>
+                              <_version dataType="Int">6</_version>
                             </compList>
                             <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="2383397624" surrogate="true">
                               <header />
@@ -10178,6 +10344,7 @@
                                   <item dataType="ObjectRef">1826243552</item>
                                   <item dataType="ObjectRef">4026338190</item>
                                   <item dataType="ObjectRef">4053300420</item>
+                                  <item dataType="ObjectRef">3301491452</item>
                                 </keys>
                                 <values dataType="Array" type="System.Object[]" id="1329313600">
                                   <item dataType="ObjectRef">169172499</item>
@@ -10185,6 +10352,7 @@
                                   <item dataType="ObjectRef">871634091</item>
                                   <item dataType="ObjectRef">2333095562</item>
                                   <item dataType="ObjectRef">1528696334</item>
+                                  <item dataType="ObjectRef">2691756350</item>
                                 </values>
                               </body>
                             </compMap>
@@ -10313,9 +10481,14 @@
                                   <active dataType="Bool">true</active>
                                   <gameobj dataType="ObjectRef">2827144748</gameobj>
                                 </item>
+                                <item dataType="Struct" type="Game.GermStatsRenderer" id="3415076235">
+                                  <active dataType="Bool">true</active>
+                                  <gameobj dataType="ObjectRef">2827144748</gameobj>
+                                  <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
+                                </item>
                               </_items>
-                              <_size dataType="Int">5</_size>
-                              <_version dataType="Int">5</_version>
+                              <_size dataType="Int">6</_size>
+                              <_version dataType="Int">6</_version>
                             </compList>
                             <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="478262166" surrogate="true">
                               <header />
@@ -10326,6 +10499,7 @@
                                   <item dataType="ObjectRef">1826243552</item>
                                   <item dataType="ObjectRef">4026338190</item>
                                   <item dataType="ObjectRef">4053300420</item>
+                                  <item dataType="ObjectRef">3301491452</item>
                                 </keys>
                                 <values dataType="Array" type="System.Object[]" id="4288538586">
                                   <item dataType="ObjectRef">892492384</item>
@@ -10333,6 +10507,7 @@
                                   <item dataType="ObjectRef">1594953976</item>
                                   <item dataType="ObjectRef">3056415447</item>
                                   <item dataType="ObjectRef">2252016219</item>
+                                  <item dataType="ObjectRef">3415076235</item>
                                 </values>
                               </body>
                             </compMap>
@@ -10461,9 +10636,14 @@
                                   <active dataType="Bool">true</active>
                                   <gameobj dataType="ObjectRef">273831631</gameobj>
                                 </item>
+                                <item dataType="Struct" type="Game.GermStatsRenderer" id="861763118">
+                                  <active dataType="Bool">true</active>
+                                  <gameobj dataType="ObjectRef">273831631</gameobj>
+                                  <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
+                                </item>
                               </_items>
-                              <_size dataType="Int">5</_size>
-                              <_version dataType="Int">5</_version>
+                              <_size dataType="Int">6</_size>
+                              <_version dataType="Int">6</_version>
                             </compList>
                             <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="4008905080" surrogate="true">
                               <header />
@@ -10474,6 +10654,7 @@
                                   <item dataType="ObjectRef">1826243552</item>
                                   <item dataType="ObjectRef">4026338190</item>
                                   <item dataType="ObjectRef">4053300420</item>
+                                  <item dataType="ObjectRef">3301491452</item>
                                 </keys>
                                 <values dataType="Array" type="System.Object[]" id="4217703168">
                                   <item dataType="ObjectRef">2634146563</item>
@@ -10481,6 +10662,7 @@
                                   <item dataType="ObjectRef">3336608155</item>
                                   <item dataType="ObjectRef">503102330</item>
                                   <item dataType="ObjectRef">3993670398</item>
+                                  <item dataType="ObjectRef">861763118</item>
                                 </values>
                               </body>
                             </compMap>
@@ -10609,9 +10791,14 @@
                                   <active dataType="Bool">true</active>
                                   <gameobj dataType="ObjectRef">1992865154</gameobj>
                                 </item>
+                                <item dataType="Struct" type="Game.GermStatsRenderer" id="2580796641">
+                                  <active dataType="Bool">true</active>
+                                  <gameobj dataType="ObjectRef">1992865154</gameobj>
+                                  <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
+                                </item>
                               </_items>
-                              <_size dataType="Int">5</_size>
-                              <_version dataType="Int">5</_version>
+                              <_size dataType="Int">6</_size>
+                              <_version dataType="Int">6</_version>
                             </compList>
                             <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="2438095306" surrogate="true">
                               <header />
@@ -10622,6 +10809,7 @@
                                   <item dataType="ObjectRef">1826243552</item>
                                   <item dataType="ObjectRef">4026338190</item>
                                   <item dataType="ObjectRef">4053300420</item>
+                                  <item dataType="ObjectRef">3301491452</item>
                                 </keys>
                                 <values dataType="Array" type="System.Object[]" id="2918210782">
                                   <item dataType="ObjectRef">58212790</item>
@@ -10629,6 +10817,7 @@
                                   <item dataType="ObjectRef">760674382</item>
                                   <item dataType="ObjectRef">2222135853</item>
                                   <item dataType="ObjectRef">1417736625</item>
+                                  <item dataType="ObjectRef">2580796641</item>
                                 </values>
                               </body>
                             </compMap>
@@ -10757,9 +10946,14 @@
                                   <active dataType="Bool">true</active>
                                   <gameobj dataType="ObjectRef">1752141489</gameobj>
                                 </item>
+                                <item dataType="Struct" type="Game.GermStatsRenderer" id="2340072976">
+                                  <active dataType="Bool">true</active>
+                                  <gameobj dataType="ObjectRef">1752141489</gameobj>
+                                  <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
+                                </item>
                               </_items>
-                              <_size dataType="Int">5</_size>
-                              <_version dataType="Int">5</_version>
+                              <_size dataType="Int">6</_size>
+                              <_version dataType="Int">6</_version>
                             </compList>
                             <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="1132179064" surrogate="true">
                               <header />
@@ -10770,6 +10964,7 @@
                                   <item dataType="ObjectRef">1826243552</item>
                                   <item dataType="ObjectRef">4026338190</item>
                                   <item dataType="ObjectRef">4053300420</item>
+                                  <item dataType="ObjectRef">3301491452</item>
                                 </keys>
                                 <values dataType="Array" type="System.Object[]" id="3213966080">
                                   <item dataType="ObjectRef">4112456421</item>
@@ -10777,6 +10972,7 @@
                                   <item dataType="ObjectRef">519950717</item>
                                   <item dataType="ObjectRef">1981412188</item>
                                   <item dataType="ObjectRef">1177012960</item>
+                                  <item dataType="ObjectRef">2340072976</item>
                                 </values>
                               </body>
                             </compMap>
@@ -10905,9 +11101,14 @@
                                   <active dataType="Bool">true</active>
                                   <gameobj dataType="ObjectRef">3439882818</gameobj>
                                 </item>
+                                <item dataType="Struct" type="Game.GermStatsRenderer" id="4027814305">
+                                  <active dataType="Bool">true</active>
+                                  <gameobj dataType="ObjectRef">3439882818</gameobj>
+                                  <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
+                                </item>
                               </_items>
-                              <_size dataType="Int">5</_size>
-                              <_version dataType="Int">5</_version>
+                              <_size dataType="Int">6</_size>
+                              <_version dataType="Int">6</_version>
                             </compList>
                             <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="1631162570" surrogate="true">
                               <header />
@@ -10918,6 +11119,7 @@
                                   <item dataType="ObjectRef">1826243552</item>
                                   <item dataType="ObjectRef">4026338190</item>
                                   <item dataType="ObjectRef">4053300420</item>
+                                  <item dataType="ObjectRef">3301491452</item>
                                 </keys>
                                 <values dataType="Array" type="System.Object[]" id="2228753886">
                                   <item dataType="ObjectRef">1505230454</item>
@@ -10925,6 +11127,7 @@
                                   <item dataType="ObjectRef">2207692046</item>
                                   <item dataType="ObjectRef">3669153517</item>
                                   <item dataType="ObjectRef">2864754289</item>
+                                  <item dataType="ObjectRef">4027814305</item>
                                 </values>
                               </body>
                             </compMap>
@@ -11053,9 +11256,14 @@
                                   <active dataType="Bool">true</active>
                                   <gameobj dataType="ObjectRef">591688421</gameobj>
                                 </item>
+                                <item dataType="Struct" type="Game.GermStatsRenderer" id="1179619908">
+                                  <active dataType="Bool">true</active>
+                                  <gameobj dataType="ObjectRef">591688421</gameobj>
+                                  <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
+                                </item>
                               </_items>
-                              <_size dataType="Int">5</_size>
-                              <_version dataType="Int">5</_version>
+                              <_size dataType="Int">6</_size>
+                              <_version dataType="Int">6</_version>
                             </compList>
                             <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="4201193152" surrogate="true">
                               <header />
@@ -11066,6 +11274,7 @@
                                   <item dataType="ObjectRef">1826243552</item>
                                   <item dataType="ObjectRef">4026338190</item>
                                   <item dataType="ObjectRef">4053300420</item>
+                                  <item dataType="ObjectRef">3301491452</item>
                                 </keys>
                                 <values dataType="Array" type="System.Object[]" id="3652578040">
                                   <item dataType="ObjectRef">2952003353</item>
@@ -11073,6 +11282,7 @@
                                   <item dataType="ObjectRef">3654464945</item>
                                   <item dataType="ObjectRef">820959120</item>
                                   <item dataType="ObjectRef">16559892</item>
+                                  <item dataType="ObjectRef">1179619908</item>
                                 </values>
                               </body>
                             </compMap>
@@ -11201,9 +11411,14 @@
                                   <active dataType="Bool">true</active>
                                   <gameobj dataType="ObjectRef">661691674</gameobj>
                                 </item>
+                                <item dataType="Struct" type="Game.GermStatsRenderer" id="1249623161">
+                                  <active dataType="Bool">true</active>
+                                  <gameobj dataType="ObjectRef">661691674</gameobj>
+                                  <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
+                                </item>
                               </_items>
-                              <_size dataType="Int">5</_size>
-                              <_version dataType="Int">5</_version>
+                              <_size dataType="Int">6</_size>
+                              <_version dataType="Int">6</_version>
                             </compList>
                             <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="1034029754" surrogate="true">
                               <header />
@@ -11214,6 +11429,7 @@
                                   <item dataType="ObjectRef">1826243552</item>
                                   <item dataType="ObjectRef">4026338190</item>
                                   <item dataType="ObjectRef">4053300420</item>
+                                  <item dataType="ObjectRef">3301491452</item>
                                 </keys>
                                 <values dataType="Array" type="System.Object[]" id="2620393358">
                                   <item dataType="ObjectRef">3022006606</item>
@@ -11221,6 +11437,7 @@
                                   <item dataType="ObjectRef">3724468198</item>
                                   <item dataType="ObjectRef">890962373</item>
                                   <item dataType="ObjectRef">86563145</item>
+                                  <item dataType="ObjectRef">1249623161</item>
                                 </values>
                               </body>
                             </compMap>
