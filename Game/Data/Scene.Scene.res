@@ -110,14 +110,14 @@
                         <ignoreParent dataType="Bool">false</ignoreParent>
                         <parentTransform />
                         <pos dataType="Struct" type="Duality.Vector3">
-                          <X dataType="Float">145.472977</X>
-                          <Y dataType="Float">-108.60421</Y>
-                          <Z dataType="Float">164.492767</Z>
+                          <X dataType="Float">153.149429</X>
+                          <Y dataType="Float">-110.069771</Y>
+                          <Z dataType="Float">212.625214</Z>
                         </pos>
                         <posAbs dataType="Struct" type="Duality.Vector3">
-                          <X dataType="Float">145.472977</X>
-                          <Y dataType="Float">-108.60421</Y>
-                          <Z dataType="Float">164.492767</Z>
+                          <X dataType="Float">153.149429</X>
+                          <Y dataType="Float">-110.069771</Y>
+                          <Z dataType="Float">212.625214</Z>
                         </posAbs>
                         <scale dataType="Float">1</scale>
                         <scaleAbs dataType="Float">1</scaleAbs>
@@ -149,9 +149,9 @@
                         </sharedMat>
                         <tint dataType="Struct" type="Duality.Drawing.ColorRgba">
                           <A dataType="Byte">255</A>
-                          <B dataType="Byte">131</B>
-                          <G dataType="Byte">131</G>
-                          <R dataType="Byte">131</R>
+                          <B dataType="Byte">126</B>
+                          <G dataType="Byte">126</G>
+                          <R dataType="Byte">126</R>
                         </tint>
                         <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
                       </item>
@@ -605,14 +605,14 @@
                         <ignoreParent dataType="Bool">false</ignoreParent>
                         <parentTransform />
                         <pos dataType="Struct" type="Duality.Vector3">
-                          <X dataType="Float">1054.49048</X>
-                          <Y dataType="Float">373.358917</Y>
-                          <Z dataType="Float">395.254578</Z>
+                          <X dataType="Float">1062.167</X>
+                          <Y dataType="Float">371.8931</Y>
+                          <Z dataType="Float">443.387024</Z>
                         </pos>
                         <posAbs dataType="Struct" type="Duality.Vector3">
-                          <X dataType="Float">1054.49048</X>
-                          <Y dataType="Float">373.358917</Y>
-                          <Z dataType="Float">395.254578</Z>
+                          <X dataType="Float">1062.167</X>
+                          <Y dataType="Float">371.8931</Y>
+                          <Z dataType="Float">443.387024</Z>
                         </posAbs>
                         <scale dataType="Float">1</scale>
                         <scaleAbs dataType="Float">1</scaleAbs>
@@ -644,9 +644,9 @@
                         </sharedMat>
                         <tint dataType="Struct" type="Duality.Drawing.ColorRgba">
                           <A dataType="Byte">255</A>
-                          <B dataType="Byte">109</B>
-                          <G dataType="Byte">109</G>
-                          <R dataType="Byte">109</R>
+                          <B dataType="Byte">106</B>
+                          <G dataType="Byte">106</G>
+                          <R dataType="Byte">106</R>
                         </tint>
                         <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
                       </item>
@@ -1100,14 +1100,14 @@
                         <ignoreParent dataType="Bool">false</ignoreParent>
                         <parentTransform />
                         <pos dataType="Struct" type="Duality.Vector3">
-                          <X dataType="Float">996.401245</X>
-                          <Y dataType="Float">298.977</Y>
-                          <Z dataType="Float">395.254578</Z>
+                          <X dataType="Float">1004.0777</X>
+                          <Y dataType="Float">297.5112</Y>
+                          <Z dataType="Float">443.387024</Z>
                         </pos>
                         <posAbs dataType="Struct" type="Duality.Vector3">
-                          <X dataType="Float">996.401245</X>
-                          <Y dataType="Float">298.977</Y>
-                          <Z dataType="Float">395.254578</Z>
+                          <X dataType="Float">1004.0777</X>
+                          <Y dataType="Float">297.5112</Y>
+                          <Z dataType="Float">443.387024</Z>
                         </posAbs>
                         <scale dataType="Float">1</scale>
                         <scaleAbs dataType="Float">1</scaleAbs>
@@ -1139,9 +1139,9 @@
                         </sharedMat>
                         <tint dataType="Struct" type="Duality.Drawing.ColorRgba">
                           <A dataType="Byte">255</A>
-                          <B dataType="Byte">109</B>
-                          <G dataType="Byte">109</G>
-                          <R dataType="Byte">109</R>
+                          <B dataType="Byte">106</B>
+                          <G dataType="Byte">106</G>
+                          <R dataType="Byte">106</R>
                         </tint>
                         <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
                       </item>
@@ -1397,14 +1397,14 @@
                         <ignoreParent dataType="Bool">false</ignoreParent>
                         <parentTransform />
                         <pos dataType="Struct" type="Duality.Vector3">
-                          <X dataType="Float">1298.75415</X>
-                          <Y dataType="Float">-196.697861</Y>
-                          <Z dataType="Float">395.254578</Z>
+                          <X dataType="Float">1306.43066</X>
+                          <Y dataType="Float">-198.163422</Y>
+                          <Z dataType="Float">443.387024</Z>
                         </pos>
                         <posAbs dataType="Struct" type="Duality.Vector3">
-                          <X dataType="Float">1298.75415</X>
-                          <Y dataType="Float">-196.697861</Y>
-                          <Z dataType="Float">395.254578</Z>
+                          <X dataType="Float">1306.43066</X>
+                          <Y dataType="Float">-198.163422</Y>
+                          <Z dataType="Float">443.387024</Z>
                         </posAbs>
                         <scale dataType="Float">1</scale>
                         <scaleAbs dataType="Float">1</scaleAbs>
@@ -1436,9 +1436,9 @@
                         </sharedMat>
                         <tint dataType="Struct" type="Duality.Drawing.ColorRgba">
                           <A dataType="Byte">255</A>
-                          <B dataType="Byte">109</B>
-                          <G dataType="Byte">109</G>
-                          <R dataType="Byte">109</R>
+                          <B dataType="Byte">106</B>
+                          <G dataType="Byte">106</G>
+                          <R dataType="Byte">106</R>
                         </tint>
                         <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
                       </item>
@@ -1694,14 +1694,14 @@
                         <ignoreParent dataType="Bool">false</ignoreParent>
                         <parentTransform />
                         <pos dataType="Struct" type="Duality.Vector3">
-                          <X dataType="Float">-1299.96033</X>
-                          <Y dataType="Float">951.4177</Y>
-                          <Z dataType="Float">164.492767</Z>
+                          <X dataType="Float">-1292.28394</X>
+                          <Y dataType="Float">949.9518</Y>
+                          <Z dataType="Float">212.625214</Z>
                         </pos>
                         <posAbs dataType="Struct" type="Duality.Vector3">
-                          <X dataType="Float">-1299.96033</X>
-                          <Y dataType="Float">951.4177</Y>
-                          <Z dataType="Float">164.492767</Z>
+                          <X dataType="Float">-1292.28394</X>
+                          <Y dataType="Float">949.9518</Y>
+                          <Z dataType="Float">212.625214</Z>
                         </posAbs>
                         <scale dataType="Float">1</scale>
                         <scaleAbs dataType="Float">1</scaleAbs>
@@ -1733,9 +1733,9 @@
                         </sharedMat>
                         <tint dataType="Struct" type="Duality.Drawing.ColorRgba">
                           <A dataType="Byte">255</A>
-                          <B dataType="Byte">131</B>
-                          <G dataType="Byte">131</G>
-                          <R dataType="Byte">131</R>
+                          <B dataType="Byte">126</B>
+                          <G dataType="Byte">126</G>
+                          <R dataType="Byte">126</R>
                         </tint>
                         <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
                       </item>
@@ -2189,14 +2189,14 @@
                         <ignoreParent dataType="Bool">false</ignoreParent>
                         <parentTransform />
                         <pos dataType="Struct" type="Duality.Vector3">
-                          <X dataType="Float">-444.588684</X>
-                          <Y dataType="Float">379.630859</Y>
-                          <Z dataType="Float">395.254578</Z>
+                          <X dataType="Float">-436.912231</X>
+                          <Y dataType="Float">378.16507</Y>
+                          <Z dataType="Float">443.387024</Z>
                         </pos>
                         <posAbs dataType="Struct" type="Duality.Vector3">
-                          <X dataType="Float">-444.588684</X>
-                          <Y dataType="Float">379.630859</Y>
-                          <Z dataType="Float">395.254578</Z>
+                          <X dataType="Float">-436.912231</X>
+                          <Y dataType="Float">378.16507</Y>
+                          <Z dataType="Float">443.387024</Z>
                         </posAbs>
                         <scale dataType="Float">1</scale>
                         <scaleAbs dataType="Float">1</scaleAbs>
@@ -2228,9 +2228,9 @@
                         </sharedMat>
                         <tint dataType="Struct" type="Duality.Drawing.ColorRgba">
                           <A dataType="Byte">255</A>
-                          <B dataType="Byte">109</B>
-                          <G dataType="Byte">109</G>
-                          <R dataType="Byte">109</R>
+                          <B dataType="Byte">106</B>
+                          <G dataType="Byte">106</G>
+                          <R dataType="Byte">106</R>
                         </tint>
                         <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
                       </item>
@@ -2486,14 +2486,14 @@
                         <ignoreParent dataType="Bool">false</ignoreParent>
                         <parentTransform />
                         <pos dataType="Struct" type="Duality.Vector3">
-                          <X dataType="Float">-1120.88745</X>
-                          <Y dataType="Float">881.3651</Y>
-                          <Z dataType="Float">164.492767</Z>
+                          <X dataType="Float">-1113.21094</X>
+                          <Y dataType="Float">879.8992</Y>
+                          <Z dataType="Float">212.625214</Z>
                         </pos>
                         <posAbs dataType="Struct" type="Duality.Vector3">
-                          <X dataType="Float">-1120.88745</X>
-                          <Y dataType="Float">881.3651</Y>
-                          <Z dataType="Float">164.492767</Z>
+                          <X dataType="Float">-1113.21094</X>
+                          <Y dataType="Float">879.8992</Y>
+                          <Z dataType="Float">212.625214</Z>
                         </posAbs>
                         <scale dataType="Float">1</scale>
                         <scaleAbs dataType="Float">1</scaleAbs>
@@ -2525,9 +2525,9 @@
                         </sharedMat>
                         <tint dataType="Struct" type="Duality.Drawing.ColorRgba">
                           <A dataType="Byte">255</A>
-                          <B dataType="Byte">131</B>
-                          <G dataType="Byte">131</G>
-                          <R dataType="Byte">131</R>
+                          <B dataType="Byte">126</B>
+                          <G dataType="Byte">126</G>
+                          <R dataType="Byte">126</R>
                         </tint>
                         <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
                       </item>
@@ -2684,14 +2684,14 @@
                         <ignoreParent dataType="Bool">false</ignoreParent>
                         <parentTransform />
                         <pos dataType="Struct" type="Duality.Vector3">
-                          <X dataType="Float">-537.621155</X>
-                          <Y dataType="Float">395.5039</Y>
-                          <Z dataType="Float">395.254578</Z>
+                          <X dataType="Float">-529.9447</X>
+                          <Y dataType="Float">394.038116</Y>
+                          <Z dataType="Float">443.387024</Z>
                         </pos>
                         <posAbs dataType="Struct" type="Duality.Vector3">
-                          <X dataType="Float">-537.621155</X>
-                          <Y dataType="Float">395.5039</Y>
-                          <Z dataType="Float">395.254578</Z>
+                          <X dataType="Float">-529.9447</X>
+                          <Y dataType="Float">394.038116</Y>
+                          <Z dataType="Float">443.387024</Z>
                         </posAbs>
                         <scale dataType="Float">1</scale>
                         <scaleAbs dataType="Float">1</scaleAbs>
@@ -2723,9 +2723,9 @@
                         </sharedMat>
                         <tint dataType="Struct" type="Duality.Drawing.ColorRgba">
                           <A dataType="Byte">255</A>
-                          <B dataType="Byte">109</B>
-                          <G dataType="Byte">109</G>
-                          <R dataType="Byte">109</R>
+                          <B dataType="Byte">106</B>
+                          <G dataType="Byte">106</G>
+                          <R dataType="Byte">106</R>
                         </tint>
                         <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
                       </item>
@@ -2882,14 +2882,14 @@
                         <ignoreParent dataType="Bool">false</ignoreParent>
                         <parentTransform />
                         <pos dataType="Struct" type="Duality.Vector3">
-                          <X dataType="Float">-1782.16418</X>
-                          <Y dataType="Float">623.6879</Y>
-                          <Z dataType="Float">164.492767</Z>
+                          <X dataType="Float">-1774.48779</X>
+                          <Y dataType="Float">622.2219</Y>
+                          <Z dataType="Float">212.625214</Z>
                         </pos>
                         <posAbs dataType="Struct" type="Duality.Vector3">
-                          <X dataType="Float">-1782.16418</X>
-                          <Y dataType="Float">623.6879</Y>
-                          <Z dataType="Float">164.492767</Z>
+                          <X dataType="Float">-1774.48779</X>
+                          <Y dataType="Float">622.2219</Y>
+                          <Z dataType="Float">212.625214</Z>
                         </posAbs>
                         <scale dataType="Float">1</scale>
                         <scaleAbs dataType="Float">1</scaleAbs>
@@ -2921,9 +2921,9 @@
                         </sharedMat>
                         <tint dataType="Struct" type="Duality.Drawing.ColorRgba">
                           <A dataType="Byte">255</A>
-                          <B dataType="Byte">131</B>
-                          <G dataType="Byte">131</G>
-                          <R dataType="Byte">131</R>
+                          <B dataType="Byte">126</B>
+                          <G dataType="Byte">126</G>
+                          <R dataType="Byte">126</R>
                         </tint>
                         <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
                       </item>
@@ -3179,14 +3179,14 @@
                         <ignoreParent dataType="Bool">false</ignoreParent>
                         <parentTransform />
                         <pos dataType="Struct" type="Duality.Vector3">
-                          <X dataType="Float">-1004.3941</X>
-                          <Y dataType="Float">685.7724</Y>
-                          <Z dataType="Float">618.974365</Z>
+                          <X dataType="Float">-996.717651</X>
+                          <Y dataType="Float">684.3064</Y>
+                          <Z dataType="Float">667.1068</Z>
                         </pos>
                         <posAbs dataType="Struct" type="Duality.Vector3">
-                          <X dataType="Float">-1004.3941</X>
-                          <Y dataType="Float">685.7724</Y>
-                          <Z dataType="Float">618.974365</Z>
+                          <X dataType="Float">-996.717651</X>
+                          <Y dataType="Float">684.3064</Y>
+                          <Z dataType="Float">667.1068</Z>
                         </posAbs>
                         <scale dataType="Float">1</scale>
                         <scaleAbs dataType="Float">1</scaleAbs>
@@ -3218,9 +3218,9 @@
                         </sharedMat>
                         <tint dataType="Struct" type="Duality.Drawing.ColorRgba">
                           <A dataType="Byte">255</A>
-                          <B dataType="Byte">94</B>
-                          <G dataType="Byte">94</G>
-                          <R dataType="Byte">94</R>
+                          <B dataType="Byte">91</B>
+                          <G dataType="Byte">91</G>
+                          <R dataType="Byte">91</R>
                         </tint>
                         <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
                       </item>
@@ -3476,14 +3476,14 @@
                         <ignoreParent dataType="Bool">false</ignoreParent>
                         <parentTransform />
                         <pos dataType="Struct" type="Duality.Vector3">
-                          <X dataType="Float">1764.221</X>
-                          <Y dataType="Float">960.3428</Y>
-                          <Z dataType="Float">395.254578</Z>
+                          <X dataType="Float">1771.89746</X>
+                          <Y dataType="Float">958.876831</Y>
+                          <Z dataType="Float">443.387024</Z>
                         </pos>
                         <posAbs dataType="Struct" type="Duality.Vector3">
-                          <X dataType="Float">1764.221</X>
-                          <Y dataType="Float">960.3428</Y>
-                          <Z dataType="Float">395.254578</Z>
+                          <X dataType="Float">1771.89746</X>
+                          <Y dataType="Float">958.876831</Y>
+                          <Z dataType="Float">443.387024</Z>
                         </posAbs>
                         <scale dataType="Float">1</scale>
                         <scaleAbs dataType="Float">1</scaleAbs>
@@ -3515,9 +3515,9 @@
                         </sharedMat>
                         <tint dataType="Struct" type="Duality.Drawing.ColorRgba">
                           <A dataType="Byte">255</A>
-                          <B dataType="Byte">109</B>
-                          <G dataType="Byte">109</G>
-                          <R dataType="Byte">109</R>
+                          <B dataType="Byte">106</B>
+                          <G dataType="Byte">106</G>
+                          <R dataType="Byte">106</R>
                         </tint>
                         <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
                       </item>
@@ -3773,14 +3773,14 @@
                         <ignoreParent dataType="Bool">false</ignoreParent>
                         <parentTransform />
                         <pos dataType="Struct" type="Duality.Vector3">
-                          <X dataType="Float">2294.3894</X>
-                          <Y dataType="Float">723.629761</Y>
-                          <Z dataType="Float">395.254578</Z>
+                          <X dataType="Float">2302.06567</X>
+                          <Y dataType="Float">722.1638</Y>
+                          <Z dataType="Float">443.387024</Z>
                         </pos>
                         <posAbs dataType="Struct" type="Duality.Vector3">
-                          <X dataType="Float">2294.3894</X>
-                          <Y dataType="Float">723.629761</Y>
-                          <Z dataType="Float">395.254578</Z>
+                          <X dataType="Float">2302.06567</X>
+                          <Y dataType="Float">722.1638</Y>
+                          <Z dataType="Float">443.387024</Z>
                         </posAbs>
                         <scale dataType="Float">1</scale>
                         <scaleAbs dataType="Float">1</scaleAbs>
@@ -3812,9 +3812,9 @@
                         </sharedMat>
                         <tint dataType="Struct" type="Duality.Drawing.ColorRgba">
                           <A dataType="Byte">255</A>
-                          <B dataType="Byte">109</B>
-                          <G dataType="Byte">109</G>
-                          <R dataType="Byte">109</R>
+                          <B dataType="Byte">106</B>
+                          <G dataType="Byte">106</G>
+                          <R dataType="Byte">106</R>
                         </tint>
                         <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
                       </item>
@@ -3971,14 +3971,14 @@
                         <ignoreParent dataType="Bool">false</ignoreParent>
                         <parentTransform />
                         <pos dataType="Struct" type="Duality.Vector3">
-                          <X dataType="Float">1526.50647</X>
-                          <Y dataType="Float">464.738159</Y>
-                          <Z dataType="Float">618.974365</Z>
+                          <X dataType="Float">1534.18286</X>
+                          <Y dataType="Float">463.272369</Y>
+                          <Z dataType="Float">667.1068</Z>
                         </pos>
                         <posAbs dataType="Struct" type="Duality.Vector3">
-                          <X dataType="Float">1526.50647</X>
-                          <Y dataType="Float">464.738159</Y>
-                          <Z dataType="Float">618.974365</Z>
+                          <X dataType="Float">1534.18286</X>
+                          <Y dataType="Float">463.272369</Y>
+                          <Z dataType="Float">667.1068</Z>
                         </posAbs>
                         <scale dataType="Float">1</scale>
                         <scaleAbs dataType="Float">1</scaleAbs>
@@ -4010,9 +4010,9 @@
                         </sharedMat>
                         <tint dataType="Struct" type="Duality.Drawing.ColorRgba">
                           <A dataType="Byte">255</A>
-                          <B dataType="Byte">94</B>
-                          <G dataType="Byte">94</G>
-                          <R dataType="Byte">94</R>
+                          <B dataType="Byte">91</B>
+                          <G dataType="Byte">91</G>
+                          <R dataType="Byte">91</R>
                         </tint>
                         <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
                       </item>
@@ -4268,14 +4268,14 @@
                         <ignoreParent dataType="Bool">false</ignoreParent>
                         <parentTransform />
                         <pos dataType="Struct" type="Duality.Vector3">
-                          <X dataType="Float">2229.68237</X>
-                          <Y dataType="Float">654.9286</Y>
-                          <Z dataType="Float">395.254578</Z>
+                          <X dataType="Float">2237.35864</X>
+                          <Y dataType="Float">653.462646</Y>
+                          <Z dataType="Float">443.387024</Z>
                         </pos>
                         <posAbs dataType="Struct" type="Duality.Vector3">
-                          <X dataType="Float">2229.68237</X>
-                          <Y dataType="Float">654.9286</Y>
-                          <Z dataType="Float">395.254578</Z>
+                          <X dataType="Float">2237.35864</X>
+                          <Y dataType="Float">653.462646</Y>
+                          <Z dataType="Float">443.387024</Z>
                         </posAbs>
                         <scale dataType="Float">1</scale>
                         <scaleAbs dataType="Float">1</scaleAbs>
@@ -4307,9 +4307,9 @@
                         </sharedMat>
                         <tint dataType="Struct" type="Duality.Drawing.ColorRgba">
                           <A dataType="Byte">255</A>
-                          <B dataType="Byte">109</B>
-                          <G dataType="Byte">109</G>
-                          <R dataType="Byte">109</R>
+                          <B dataType="Byte">106</B>
+                          <G dataType="Byte">106</G>
+                          <R dataType="Byte">106</R>
                         </tint>
                         <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
                       </item>
@@ -4565,14 +4565,14 @@
                         <ignoreParent dataType="Bool">false</ignoreParent>
                         <parentTransform />
                         <pos dataType="Struct" type="Duality.Vector3">
-                          <X dataType="Float">2484.98682</X>
-                          <Y dataType="Float">133.4578</Y>
-                          <Z dataType="Float">395.254578</Z>
+                          <X dataType="Float">2492.66333</X>
+                          <Y dataType="Float">131.992233</Y>
+                          <Z dataType="Float">443.387024</Z>
                         </pos>
                         <posAbs dataType="Struct" type="Duality.Vector3">
-                          <X dataType="Float">2484.98682</X>
-                          <Y dataType="Float">133.4578</Y>
-                          <Z dataType="Float">395.254578</Z>
+                          <X dataType="Float">2492.66333</X>
+                          <Y dataType="Float">131.992233</Y>
+                          <Z dataType="Float">443.387024</Z>
                         </posAbs>
                         <scale dataType="Float">1</scale>
                         <scaleAbs dataType="Float">1</scaleAbs>
@@ -4604,9 +4604,9 @@
                         </sharedMat>
                         <tint dataType="Struct" type="Duality.Drawing.ColorRgba">
                           <A dataType="Byte">255</A>
-                          <B dataType="Byte">109</B>
-                          <G dataType="Byte">109</G>
-                          <R dataType="Byte">109</R>
+                          <B dataType="Byte">106</B>
+                          <G dataType="Byte">106</G>
+                          <R dataType="Byte">106</R>
                         </tint>
                         <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
                       </item>
@@ -5258,14 +5258,14 @@
                         <ignoreParent dataType="Bool">false</ignoreParent>
                         <parentTransform />
                         <pos dataType="Struct" type="Duality.Vector3">
-                          <X dataType="Float">-333.745117</X>
-                          <Y dataType="Float">-1537.30444</Y>
-                          <Z dataType="Float">164.492767</Z>
+                          <X dataType="Float">-326.068665</X>
+                          <Y dataType="Float">-1538.77</Y>
+                          <Z dataType="Float">212.625214</Z>
                         </pos>
                         <posAbs dataType="Struct" type="Duality.Vector3">
-                          <X dataType="Float">-333.745117</X>
-                          <Y dataType="Float">-1537.30444</Y>
-                          <Z dataType="Float">164.492767</Z>
+                          <X dataType="Float">-326.068665</X>
+                          <Y dataType="Float">-1538.77</Y>
+                          <Z dataType="Float">212.625214</Z>
                         </posAbs>
                         <scale dataType="Float">1</scale>
                         <scaleAbs dataType="Float">1</scaleAbs>
@@ -5297,9 +5297,9 @@
                         </sharedMat>
                         <tint dataType="Struct" type="Duality.Drawing.ColorRgba">
                           <A dataType="Byte">255</A>
-                          <B dataType="Byte">131</B>
-                          <G dataType="Byte">131</G>
-                          <R dataType="Byte">131</R>
+                          <B dataType="Byte">126</B>
+                          <G dataType="Byte">126</G>
+                          <R dataType="Byte">126</R>
                         </tint>
                         <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
                       </item>
@@ -5456,14 +5456,14 @@
                         <ignoreParent dataType="Bool">false</ignoreParent>
                         <parentTransform />
                         <pos dataType="Struct" type="Duality.Vector3">
-                          <X dataType="Float">379.5696</X>
-                          <Y dataType="Float">-1796.99939</Y>
-                          <Z dataType="Float">395.254578</Z>
+                          <X dataType="Float">387.246063</X>
+                          <Y dataType="Float">-1798.46509</Y>
+                          <Z dataType="Float">443.387024</Z>
                         </pos>
                         <posAbs dataType="Struct" type="Duality.Vector3">
-                          <X dataType="Float">379.5696</X>
-                          <Y dataType="Float">-1796.99939</Y>
-                          <Z dataType="Float">395.254578</Z>
+                          <X dataType="Float">387.246063</X>
+                          <Y dataType="Float">-1798.46509</Y>
+                          <Z dataType="Float">443.387024</Z>
                         </posAbs>
                         <scale dataType="Float">1</scale>
                         <scaleAbs dataType="Float">1</scaleAbs>
@@ -5495,9 +5495,9 @@
                         </sharedMat>
                         <tint dataType="Struct" type="Duality.Drawing.ColorRgba">
                           <A dataType="Byte">255</A>
-                          <B dataType="Byte">109</B>
-                          <G dataType="Byte">109</G>
-                          <R dataType="Byte">109</R>
+                          <B dataType="Byte">106</B>
+                          <G dataType="Byte">106</G>
+                          <R dataType="Byte">106</R>
                         </tint>
                         <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
                       </item>
@@ -5852,14 +5852,14 @@
                         <ignoreParent dataType="Bool">false</ignoreParent>
                         <parentTransform />
                         <pos dataType="Struct" type="Duality.Vector3">
-                          <X dataType="Float">132.339722</X>
-                          <Y dataType="Float">-533.417236</Y>
-                          <Z dataType="Float">395.254578</Z>
+                          <X dataType="Float">140.016174</X>
+                          <Y dataType="Float">-534.8832</Y>
+                          <Z dataType="Float">443.387024</Z>
                         </pos>
                         <posAbs dataType="Struct" type="Duality.Vector3">
-                          <X dataType="Float">132.339722</X>
-                          <Y dataType="Float">-533.417236</Y>
-                          <Z dataType="Float">395.254578</Z>
+                          <X dataType="Float">140.016174</X>
+                          <Y dataType="Float">-534.8832</Y>
+                          <Z dataType="Float">443.387024</Z>
                         </posAbs>
                         <scale dataType="Float">1</scale>
                         <scaleAbs dataType="Float">1</scaleAbs>
@@ -5891,9 +5891,9 @@
                         </sharedMat>
                         <tint dataType="Struct" type="Duality.Drawing.ColorRgba">
                           <A dataType="Byte">255</A>
-                          <B dataType="Byte">109</B>
-                          <G dataType="Byte">109</G>
-                          <R dataType="Byte">109</R>
+                          <B dataType="Byte">106</B>
+                          <G dataType="Byte">106</G>
+                          <R dataType="Byte">106</R>
                         </tint>
                         <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
                       </item>
@@ -6248,14 +6248,14 @@
                         <ignoreParent dataType="Bool">false</ignoreParent>
                         <parentTransform />
                         <pos dataType="Struct" type="Duality.Vector3">
-                          <X dataType="Float">-277.5224</X>
-                          <Y dataType="Float">-2177.4248</Y>
-                          <Z dataType="Float">395.254578</Z>
+                          <X dataType="Float">-269.845947</X>
+                          <Y dataType="Float">-2178.89</Y>
+                          <Z dataType="Float">443.387024</Z>
                         </pos>
                         <posAbs dataType="Struct" type="Duality.Vector3">
-                          <X dataType="Float">-277.5224</X>
-                          <Y dataType="Float">-2177.4248</Y>
-                          <Z dataType="Float">395.254578</Z>
+                          <X dataType="Float">-269.845947</X>
+                          <Y dataType="Float">-2178.89</Y>
+                          <Z dataType="Float">443.387024</Z>
                         </posAbs>
                         <scale dataType="Float">1</scale>
                         <scaleAbs dataType="Float">1</scaleAbs>
@@ -6287,9 +6287,9 @@
                         </sharedMat>
                         <tint dataType="Struct" type="Duality.Drawing.ColorRgba">
                           <A dataType="Byte">255</A>
-                          <B dataType="Byte">109</B>
-                          <G dataType="Byte">109</G>
-                          <R dataType="Byte">109</R>
+                          <B dataType="Byte">106</B>
+                          <G dataType="Byte">106</G>
+                          <R dataType="Byte">106</R>
                         </tint>
                         <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
                       </item>
@@ -6756,7 +6756,7 @@
                             <R dataType="Byte">206</R>
                           </color>
                           <energy dataType="Float">0</energy>
-                          <energyChargeRate dataType="Float">0.8293855</energyChargeRate>
+                          <energyChargeRate dataType="Float">0.536786854</energyChargeRate>
                           <gameobj dataType="ObjectRef">3261185991</gameobj>
                           <moveSpeed dataType="Float">5</moveSpeed>
                           <targetMovement dataType="Struct" type="Duality.Vector2" />
@@ -6907,7 +6907,7 @@
                                     <R dataType="Byte">255</R>
                                   </color>
                                   <energy dataType="Float">0</energy>
-                                  <energyChargeRate dataType="Float">0.8942588</energyChargeRate>
+                                  <energyChargeRate dataType="Float">0.320492357</energyChargeRate>
                                   <gameobj dataType="ObjectRef">1273621518</gameobj>
                                   <moveSpeed dataType="Float">5</moveSpeed>
                                   <targetMovement dataType="Struct" type="Duality.Vector2" />
@@ -7062,7 +7062,7 @@
                                     <R dataType="Byte">0</R>
                                   </color>
                                   <energy dataType="Float">0</energy>
-                                  <energyChargeRate dataType="Float">0.9555994</energyChargeRate>
+                                  <energyChargeRate dataType="Float">0.7958789</energyChargeRate>
                                   <gameobj dataType="ObjectRef">211454693</gameobj>
                                   <moveSpeed dataType="Float">5</moveSpeed>
                                   <targetMovement dataType="Struct" type="Duality.Vector2" />
@@ -7217,7 +7217,7 @@
                                     <R dataType="Byte">255</R>
                                   </color>
                                   <energy dataType="Float">0</energy>
-                                  <energyChargeRate dataType="Float">0.804403841</energyChargeRate>
+                                  <energyChargeRate dataType="Float">0.1831214</energyChargeRate>
                                   <gameobj dataType="ObjectRef">2092266675</gameobj>
                                   <moveSpeed dataType="Float">5</moveSpeed>
                                   <targetMovement dataType="Struct" type="Duality.Vector2" />

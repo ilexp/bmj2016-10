@@ -14,7 +14,7 @@ namespace Game
 	[RequiredComponent(typeof(GermBlobRenderer))]
 	public class GermController : Component, ICmpUpdatable, ICmpCollisionListener, ICmpInitializable
 	{
-		public static readonly float MinAttackEnergy = 0.1f;
+		public static readonly float MinAttackEnergy = 0.25f;
 
 		private Vector2 targetMovement = Vector2.Zero;
 		private float moveSpeed = 5.0f;
@@ -99,7 +99,7 @@ namespace Game
 				if (this.color != otherGerm.color)
 				{
 					float remainingEnergy = this.energy - otherGerm.energy;
-					if (MathF.Abs(remainingEnergy) >= MinAttackEnergy)
+					if (this.energy >= MinAttackEnergy || otherGerm.energy >= MinAttackEnergy)
 					{
 						if (remainingEnergy > 0.0f)
 							otherGerm.color = this.color;
