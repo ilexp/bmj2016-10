@@ -28,7 +28,7 @@ namespace Game
 		{
 			GermBlobRenderer blobRenderer = this.GameObj.GetComponent<GermBlobRenderer>();
 			float awayFromZeroPlane = MathF.Abs(this.GameObj.Transform.Pos.Z) / 1000.0f;
-			blobRenderer.Color = new ColorRgba(0.6f / (1.0f + awayFromZeroPlane));
+			blobRenderer.Tint = new ColorRgba(0.6f / (1.0f + awayFromZeroPlane));
 		}
 		void ICmpUpdatable.OnUpdate()
 		{

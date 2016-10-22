@@ -11,6 +11,9 @@ uniform sampler2D cloudNoiseTex;
 uniform float TimeOffset;
 uniform float GameTime;
 uniform vec2 MoveDir;
+uniform float ColorShift;
+uniform vec4 FirstColor;
+uniform vec4 SecondColor;
 
 varying vec2 TexSampleOffset;
 
@@ -33,8 +36,11 @@ void main()
 	float sideHighlight = 2.5 * max(0.0, sideFactor - 0.9);
 	opacity *= mix(0.4, 1.0, 1.0 - sideFactor) + sideHighlight;
 	
+	float colorShiftProgress = min(1.0, ColorShift * 2.0) * smoothstep(0.0, 0.2, cloudNoiseTex.r - 1.0 + ColorShift * 1.3 - sideHighlight);
+	vec4 localColor = mix(FirstColor, SecondColor, colorShiftProgress);
+	
 	float cellularMatterDensity = (0.65 + 0.35 * cloudNoiseTex.r);
-	gl_FragColor = vec4(mainColor.rgb * cellularMatterDensity * brightness + 0.25 * sideHighlight, opacity * cellularMatterDensity);
+	gl_FragColor = vec4(mainColor.rgb * localColor.rgb * cellularMatterDensity * brightness + 0.25 * sideHighlight, opacity * cellularMatterDensity);
 }</source>
 </root>
 <!-- XmlFormatterBase Document Separator -->

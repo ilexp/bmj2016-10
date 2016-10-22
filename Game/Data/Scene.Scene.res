@@ -126,19 +126,32 @@
                       </item>
                       <item dataType="Struct" type="Game.GermBlobRenderer" id="4264539130">
                         <active dataType="Bool">true</active>
-                        <color dataType="Struct" type="Duality.Drawing.ColorRgba">
+                        <colorShift dataType="Float">0</colorShift>
+                        <depthOffset dataType="Float">0</depthOffset>
+                        <displayedMoveDir dataType="Struct" type="Duality.Vector2" />
+                        <firstColor dataType="Struct" type="Duality.Drawing.ColorRgba">
+                          <A dataType="Byte">255</A>
+                          <B dataType="Byte">255</B>
+                          <G dataType="Byte">255</G>
+                          <R dataType="Byte">255</R>
+                        </firstColor>
+                        <gameobj dataType="ObjectRef">2102323089</gameobj>
+                        <radius dataType="Float">100</radius>
+                        <secondColor dataType="Struct" type="Duality.Drawing.ColorRgba">
+                          <A dataType="Byte">255</A>
+                          <B dataType="Byte">255</B>
+                          <G dataType="Byte">255</G>
+                          <R dataType="Byte">255</R>
+                        </secondColor>
+                        <sharedMat dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Material]]">
+                          <contentPath dataType="String">Data\Rendering\GermBlob.Material.res</contentPath>
+                        </sharedMat>
+                        <tint dataType="Struct" type="Duality.Drawing.ColorRgba">
                           <A dataType="Byte">255</A>
                           <B dataType="Byte">131</B>
                           <G dataType="Byte">131</G>
                           <R dataType="Byte">131</R>
-                        </color>
-                        <depthOffset dataType="Float">0</depthOffset>
-                        <displayedMoveDir dataType="Struct" type="Duality.Vector2" />
-                        <gameobj dataType="ObjectRef">2102323089</gameobj>
-                        <radius dataType="Float">100</radius>
-                        <sharedMat dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Material]]">
-                          <contentPath dataType="String">Data\Rendering\GermBlob.Material.res</contentPath>
-                        </sharedMat>
+                        </tint>
                         <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
                       </item>
                       <item dataType="Struct" type="Game.BackgroundGermController" id="3828450806">
@@ -211,19 +224,32 @@
                       </item>
                       <item dataType="Struct" type="Game.GermBlobRenderer" id="2666320911">
                         <active dataType="Bool">true</active>
-                        <color dataType="Struct" type="Duality.Drawing.ColorRgba">
+                        <colorShift dataType="Float">0</colorShift>
+                        <depthOffset dataType="Float">0</depthOffset>
+                        <displayedMoveDir dataType="Struct" type="Duality.Vector2" />
+                        <firstColor dataType="Struct" type="Duality.Drawing.ColorRgba">
+                          <A dataType="Byte">255</A>
+                          <B dataType="Byte">255</B>
+                          <G dataType="Byte">255</G>
+                          <R dataType="Byte">255</R>
+                        </firstColor>
+                        <gameobj dataType="ObjectRef">504104870</gameobj>
+                        <radius dataType="Float">100</radius>
+                        <secondColor dataType="Struct" type="Duality.Drawing.ColorRgba">
+                          <A dataType="Byte">255</A>
+                          <B dataType="Byte">255</B>
+                          <G dataType="Byte">255</G>
+                          <R dataType="Byte">255</R>
+                        </secondColor>
+                        <sharedMat dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Material]]">
+                          <contentPath dataType="String">Data\Rendering\GermBlob.Material.res</contentPath>
+                        </sharedMat>
+                        <tint dataType="Struct" type="Duality.Drawing.ColorRgba">
                           <A dataType="Byte">255</A>
                           <B dataType="Byte">109</B>
                           <G dataType="Byte">109</G>
                           <R dataType="Byte">109</R>
-                        </color>
-                        <depthOffset dataType="Float">0</depthOffset>
-                        <displayedMoveDir dataType="Struct" type="Duality.Vector2" />
-                        <gameobj dataType="ObjectRef">504104870</gameobj>
-                        <radius dataType="Float">100</radius>
-                        <sharedMat dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Material]]">
-                          <contentPath dataType="String">Data\Rendering\GermBlob.Material.res</contentPath>
-                        </sharedMat>
+                        </tint>
                         <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
                       </item>
                       <item dataType="Struct" type="Game.BackgroundGermController" id="2230232587">
@@ -296,19 +322,32 @@
                       </item>
                       <item dataType="Struct" type="Game.GermBlobRenderer" id="499525826">
                         <active dataType="Bool">true</active>
-                        <color dataType="Struct" type="Duality.Drawing.ColorRgba">
+                        <colorShift dataType="Float">0</colorShift>
+                        <depthOffset dataType="Float">0</depthOffset>
+                        <displayedMoveDir dataType="Struct" type="Duality.Vector2" />
+                        <firstColor dataType="Struct" type="Duality.Drawing.ColorRgba">
+                          <A dataType="Byte">255</A>
+                          <B dataType="Byte">255</B>
+                          <G dataType="Byte">255</G>
+                          <R dataType="Byte">255</R>
+                        </firstColor>
+                        <gameobj dataType="ObjectRef">2632277081</gameobj>
+                        <radius dataType="Float">100</radius>
+                        <secondColor dataType="Struct" type="Duality.Drawing.ColorRgba">
+                          <A dataType="Byte">255</A>
+                          <B dataType="Byte">255</B>
+                          <G dataType="Byte">255</G>
+                          <R dataType="Byte">255</R>
+                        </secondColor>
+                        <sharedMat dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Material]]">
+                          <contentPath dataType="String">Data\Rendering\GermBlob.Material.res</contentPath>
+                        </sharedMat>
+                        <tint dataType="Struct" type="Duality.Drawing.ColorRgba">
                           <A dataType="Byte">255</A>
                           <B dataType="Byte">109</B>
                           <G dataType="Byte">109</G>
                           <R dataType="Byte">109</R>
-                        </color>
-                        <depthOffset dataType="Float">0</depthOffset>
-                        <displayedMoveDir dataType="Struct" type="Duality.Vector2" />
-                        <gameobj dataType="ObjectRef">2632277081</gameobj>
-                        <radius dataType="Float">100</radius>
-                        <sharedMat dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Material]]">
-                          <contentPath dataType="String">Data\Rendering\GermBlob.Material.res</contentPath>
-                        </sharedMat>
+                        </tint>
                         <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
                       </item>
                       <item dataType="Struct" type="Game.BackgroundGermController" id="63437502">
@@ -381,19 +420,32 @@
                       </item>
                       <item dataType="Struct" type="Game.GermBlobRenderer" id="3908949942">
                         <active dataType="Bool">true</active>
-                        <color dataType="Struct" type="Duality.Drawing.ColorRgba">
+                        <colorShift dataType="Float">0</colorShift>
+                        <depthOffset dataType="Float">0</depthOffset>
+                        <displayedMoveDir dataType="Struct" type="Duality.Vector2" />
+                        <firstColor dataType="Struct" type="Duality.Drawing.ColorRgba">
+                          <A dataType="Byte">255</A>
+                          <B dataType="Byte">255</B>
+                          <G dataType="Byte">255</G>
+                          <R dataType="Byte">255</R>
+                        </firstColor>
+                        <gameobj dataType="ObjectRef">1746733901</gameobj>
+                        <radius dataType="Float">100</radius>
+                        <secondColor dataType="Struct" type="Duality.Drawing.ColorRgba">
+                          <A dataType="Byte">255</A>
+                          <B dataType="Byte">255</B>
+                          <G dataType="Byte">255</G>
+                          <R dataType="Byte">255</R>
+                        </secondColor>
+                        <sharedMat dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Material]]">
+                          <contentPath dataType="String">Data\Rendering\GermBlob.Material.res</contentPath>
+                        </sharedMat>
+                        <tint dataType="Struct" type="Duality.Drawing.ColorRgba">
                           <A dataType="Byte">255</A>
                           <B dataType="Byte">94</B>
                           <G dataType="Byte">94</G>
                           <R dataType="Byte">94</R>
-                        </color>
-                        <depthOffset dataType="Float">0</depthOffset>
-                        <displayedMoveDir dataType="Struct" type="Duality.Vector2" />
-                        <gameobj dataType="ObjectRef">1746733901</gameobj>
-                        <radius dataType="Float">100</radius>
-                        <sharedMat dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Material]]">
-                          <contentPath dataType="String">Data\Rendering\GermBlob.Material.res</contentPath>
-                        </sharedMat>
+                        </tint>
                         <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
                       </item>
                       <item dataType="Struct" type="Game.BackgroundGermController" id="3472861618">
@@ -466,19 +518,32 @@
                       </item>
                       <item dataType="Struct" type="Game.GermBlobRenderer" id="2692742910">
                         <active dataType="Bool">true</active>
-                        <color dataType="Struct" type="Duality.Drawing.ColorRgba">
+                        <colorShift dataType="Float">0</colorShift>
+                        <depthOffset dataType="Float">0</depthOffset>
+                        <displayedMoveDir dataType="Struct" type="Duality.Vector2" />
+                        <firstColor dataType="Struct" type="Duality.Drawing.ColorRgba">
+                          <A dataType="Byte">255</A>
+                          <B dataType="Byte">255</B>
+                          <G dataType="Byte">255</G>
+                          <R dataType="Byte">255</R>
+                        </firstColor>
+                        <gameobj dataType="ObjectRef">530526869</gameobj>
+                        <radius dataType="Float">100</radius>
+                        <secondColor dataType="Struct" type="Duality.Drawing.ColorRgba">
+                          <A dataType="Byte">255</A>
+                          <B dataType="Byte">255</B>
+                          <G dataType="Byte">255</G>
+                          <R dataType="Byte">255</R>
+                        </secondColor>
+                        <sharedMat dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Material]]">
+                          <contentPath dataType="String">Data\Rendering\GermBlob.Material.res</contentPath>
+                        </sharedMat>
+                        <tint dataType="Struct" type="Duality.Drawing.ColorRgba">
                           <A dataType="Byte">255</A>
                           <B dataType="Byte">131</B>
                           <G dataType="Byte">131</G>
                           <R dataType="Byte">131</R>
-                        </color>
-                        <depthOffset dataType="Float">0</depthOffset>
-                        <displayedMoveDir dataType="Struct" type="Duality.Vector2" />
-                        <gameobj dataType="ObjectRef">530526869</gameobj>
-                        <radius dataType="Float">100</radius>
-                        <sharedMat dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Material]]">
-                          <contentPath dataType="String">Data\Rendering\GermBlob.Material.res</contentPath>
-                        </sharedMat>
+                        </tint>
                         <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
                       </item>
                       <item dataType="Struct" type="Game.BackgroundGermController" id="2256654586">
@@ -551,19 +616,32 @@
                       </item>
                       <item dataType="Struct" type="Game.GermBlobRenderer" id="267859800">
                         <active dataType="Bool">true</active>
-                        <color dataType="Struct" type="Duality.Drawing.ColorRgba">
+                        <colorShift dataType="Float">0</colorShift>
+                        <depthOffset dataType="Float">0</depthOffset>
+                        <displayedMoveDir dataType="Struct" type="Duality.Vector2" />
+                        <firstColor dataType="Struct" type="Duality.Drawing.ColorRgba">
+                          <A dataType="Byte">255</A>
+                          <B dataType="Byte">255</B>
+                          <G dataType="Byte">255</G>
+                          <R dataType="Byte">255</R>
+                        </firstColor>
+                        <gameobj dataType="ObjectRef">2400611055</gameobj>
+                        <radius dataType="Float">100</radius>
+                        <secondColor dataType="Struct" type="Duality.Drawing.ColorRgba">
+                          <A dataType="Byte">255</A>
+                          <B dataType="Byte">255</B>
+                          <G dataType="Byte">255</G>
+                          <R dataType="Byte">255</R>
+                        </secondColor>
+                        <sharedMat dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Material]]">
+                          <contentPath dataType="String">Data\Rendering\GermBlob.Material.res</contentPath>
+                        </sharedMat>
+                        <tint dataType="Struct" type="Duality.Drawing.ColorRgba">
                           <A dataType="Byte">255</A>
                           <B dataType="Byte">109</B>
                           <G dataType="Byte">109</G>
                           <R dataType="Byte">109</R>
-                        </color>
-                        <depthOffset dataType="Float">0</depthOffset>
-                        <displayedMoveDir dataType="Struct" type="Duality.Vector2" />
-                        <gameobj dataType="ObjectRef">2400611055</gameobj>
-                        <radius dataType="Float">100</radius>
-                        <sharedMat dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Material]]">
-                          <contentPath dataType="String">Data\Rendering\GermBlob.Material.res</contentPath>
-                        </sharedMat>
+                        </tint>
                         <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
                       </item>
                       <item dataType="Struct" type="Game.BackgroundGermController" id="4126738772">
@@ -636,19 +714,32 @@
                       </item>
                       <item dataType="Struct" type="Game.GermBlobRenderer" id="177045218">
                         <active dataType="Bool">true</active>
-                        <color dataType="Struct" type="Duality.Drawing.ColorRgba">
+                        <colorShift dataType="Float">0</colorShift>
+                        <depthOffset dataType="Float">0</depthOffset>
+                        <displayedMoveDir dataType="Struct" type="Duality.Vector2" />
+                        <firstColor dataType="Struct" type="Duality.Drawing.ColorRgba">
+                          <A dataType="Byte">255</A>
+                          <B dataType="Byte">255</B>
+                          <G dataType="Byte">255</G>
+                          <R dataType="Byte">255</R>
+                        </firstColor>
+                        <gameobj dataType="ObjectRef">2309796473</gameobj>
+                        <radius dataType="Float">100</radius>
+                        <secondColor dataType="Struct" type="Duality.Drawing.ColorRgba">
+                          <A dataType="Byte">255</A>
+                          <B dataType="Byte">255</B>
+                          <G dataType="Byte">255</G>
+                          <R dataType="Byte">255</R>
+                        </secondColor>
+                        <sharedMat dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Material]]">
+                          <contentPath dataType="String">Data\Rendering\GermBlob.Material.res</contentPath>
+                        </sharedMat>
+                        <tint dataType="Struct" type="Duality.Drawing.ColorRgba">
                           <A dataType="Byte">255</A>
                           <B dataType="Byte">109</B>
                           <G dataType="Byte">109</G>
                           <R dataType="Byte">109</R>
-                        </color>
-                        <depthOffset dataType="Float">0</depthOffset>
-                        <displayedMoveDir dataType="Struct" type="Duality.Vector2" />
-                        <gameobj dataType="ObjectRef">2309796473</gameobj>
-                        <radius dataType="Float">100</radius>
-                        <sharedMat dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Material]]">
-                          <contentPath dataType="String">Data\Rendering\GermBlob.Material.res</contentPath>
-                        </sharedMat>
+                        </tint>
                         <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
                       </item>
                       <item dataType="Struct" type="Game.BackgroundGermController" id="4035924190">
@@ -721,19 +812,32 @@
                       </item>
                       <item dataType="Struct" type="Game.GermBlobRenderer" id="2047710849">
                         <active dataType="Bool">true</active>
-                        <color dataType="Struct" type="Duality.Drawing.ColorRgba">
+                        <colorShift dataType="Float">0</colorShift>
+                        <depthOffset dataType="Float">0</depthOffset>
+                        <displayedMoveDir dataType="Struct" type="Duality.Vector2" />
+                        <firstColor dataType="Struct" type="Duality.Drawing.ColorRgba">
+                          <A dataType="Byte">255</A>
+                          <B dataType="Byte">255</B>
+                          <G dataType="Byte">255</G>
+                          <R dataType="Byte">255</R>
+                        </firstColor>
+                        <gameobj dataType="ObjectRef">4180462104</gameobj>
+                        <radius dataType="Float">100</radius>
+                        <secondColor dataType="Struct" type="Duality.Drawing.ColorRgba">
+                          <A dataType="Byte">255</A>
+                          <B dataType="Byte">255</B>
+                          <G dataType="Byte">255</G>
+                          <R dataType="Byte">255</R>
+                        </secondColor>
+                        <sharedMat dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Material]]">
+                          <contentPath dataType="String">Data\Rendering\GermBlob.Material.res</contentPath>
+                        </sharedMat>
+                        <tint dataType="Struct" type="Duality.Drawing.ColorRgba">
                           <A dataType="Byte">255</A>
                           <B dataType="Byte">94</B>
                           <G dataType="Byte">94</G>
                           <R dataType="Byte">94</R>
-                        </color>
-                        <depthOffset dataType="Float">0</depthOffset>
-                        <displayedMoveDir dataType="Struct" type="Duality.Vector2" />
-                        <gameobj dataType="ObjectRef">4180462104</gameobj>
-                        <radius dataType="Float">100</radius>
-                        <sharedMat dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Material]]">
-                          <contentPath dataType="String">Data\Rendering\GermBlob.Material.res</contentPath>
-                        </sharedMat>
+                        </tint>
                         <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
                       </item>
                       <item dataType="Struct" type="Game.BackgroundGermController" id="1611622525">
@@ -929,19 +1033,32 @@
                         </item>
                         <item dataType="Struct" type="Game.GermBlobRenderer" id="1128434736">
                           <active dataType="Bool">true</active>
-                          <color dataType="Struct" type="Duality.Drawing.ColorRgba">
-                            <A dataType="Byte">255</A>
-                            <B dataType="Byte">0</B>
-                            <G dataType="Byte">255</G>
-                            <R dataType="Byte">182</R>
-                          </color>
+                          <colorShift dataType="Float">0</colorShift>
                           <depthOffset dataType="Float">0</depthOffset>
                           <displayedMoveDir dataType="Struct" type="Duality.Vector2" />
+                          <firstColor dataType="Struct" type="Duality.Drawing.ColorRgba">
+                            <A dataType="Byte">255</A>
+                            <B dataType="Byte">255</B>
+                            <G dataType="Byte">255</G>
+                            <R dataType="Byte">255</R>
+                          </firstColor>
                           <gameobj dataType="ObjectRef">3261185991</gameobj>
                           <radius dataType="Float">100</radius>
+                          <secondColor dataType="Struct" type="Duality.Drawing.ColorRgba">
+                            <A dataType="Byte">255</A>
+                            <B dataType="Byte">255</B>
+                            <G dataType="Byte">255</G>
+                            <R dataType="Byte">255</R>
+                          </secondColor>
                           <sharedMat dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Material]]">
                             <contentPath dataType="String">Data\Rendering\GermBlob.Material.res</contentPath>
                           </sharedMat>
+                          <tint dataType="Struct" type="Duality.Drawing.ColorRgba">
+                            <A dataType="Byte">255</A>
+                            <B dataType="Byte">255</B>
+                            <G dataType="Byte">255</G>
+                            <R dataType="Byte">255</R>
+                          </tint>
                           <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
                         </item>
                         <item dataType="Struct" type="Duality.Components.Physics.RigidBody" id="2028995219">
@@ -980,6 +1097,12 @@
                         </item>
                         <item dataType="Struct" type="Game.GermController" id="3490456690">
                           <active dataType="Bool">true</active>
+                          <color dataType="Struct" type="Duality.Drawing.ColorRgba">
+                            <A dataType="Byte">255</A>
+                            <B dataType="Byte">255</B>
+                            <G dataType="Byte">255</G>
+                            <R dataType="Byte">255</R>
+                          </color>
                           <gameobj dataType="ObjectRef">3261185991</gameobj>
                           <moveSpeed dataType="Float">5</moveSpeed>
                           <targetMovement dataType="Struct" type="Duality.Vector2" />
@@ -1051,19 +1174,32 @@
                                 </item>
                                 <item dataType="Struct" type="Game.GermBlobRenderer" id="3435837559">
                                   <active dataType="Bool">true</active>
-                                  <color dataType="Struct" type="Duality.Drawing.ColorRgba">
+                                  <colorShift dataType="Float">0</colorShift>
+                                  <depthOffset dataType="Float">0</depthOffset>
+                                  <displayedMoveDir dataType="Struct" type="Duality.Vector2" />
+                                  <firstColor dataType="Struct" type="Duality.Drawing.ColorRgba">
                                     <A dataType="Byte">255</A>
                                     <B dataType="Byte">255</B>
                                     <G dataType="Byte">255</G>
                                     <R dataType="Byte">255</R>
-                                  </color>
-                                  <depthOffset dataType="Float">0</depthOffset>
-                                  <displayedMoveDir dataType="Struct" type="Duality.Vector2" />
+                                  </firstColor>
                                   <gameobj dataType="ObjectRef">1273621518</gameobj>
                                   <radius dataType="Float">100</radius>
+                                  <secondColor dataType="Struct" type="Duality.Drawing.ColorRgba">
+                                    <A dataType="Byte">255</A>
+                                    <B dataType="Byte">255</B>
+                                    <G dataType="Byte">255</G>
+                                    <R dataType="Byte">255</R>
+                                  </secondColor>
                                   <sharedMat dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Material]]">
                                     <contentPath dataType="String">Data\Rendering\GermBlob.Material.res</contentPath>
                                   </sharedMat>
+                                  <tint dataType="Struct" type="Duality.Drawing.ColorRgba">
+                                    <A dataType="Byte">255</A>
+                                    <B dataType="Byte">255</B>
+                                    <G dataType="Byte">255</G>
+                                    <R dataType="Byte">255</R>
+                                  </tint>
                                   <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
                                 </item>
                                 <item dataType="Struct" type="Duality.Components.Physics.RigidBody" id="41430746">
@@ -1102,6 +1238,12 @@
                                 </item>
                                 <item dataType="Struct" type="Game.GermController" id="1502892217">
                                   <active dataType="Bool">true</active>
+                                  <color dataType="Struct" type="Duality.Drawing.ColorRgba">
+                                    <A dataType="Byte">255</A>
+                                    <B dataType="Byte">255</B>
+                                    <G dataType="Byte">255</G>
+                                    <R dataType="Byte">255</R>
+                                  </color>
                                   <gameobj dataType="ObjectRef">1273621518</gameobj>
                                   <moveSpeed dataType="Float">5</moveSpeed>
                                   <targetMovement dataType="Struct" type="Duality.Vector2" />
@@ -1171,19 +1313,32 @@
                                 </item>
                                 <item dataType="Struct" type="Game.GermBlobRenderer" id="2373670734">
                                   <active dataType="Bool">true</active>
-                                  <color dataType="Struct" type="Duality.Drawing.ColorRgba">
+                                  <colorShift dataType="Float">0</colorShift>
+                                  <depthOffset dataType="Float">0</depthOffset>
+                                  <displayedMoveDir dataType="Struct" type="Duality.Vector2" />
+                                  <firstColor dataType="Struct" type="Duality.Drawing.ColorRgba">
                                     <A dataType="Byte">255</A>
                                     <B dataType="Byte">255</B>
                                     <G dataType="Byte">255</G>
                                     <R dataType="Byte">255</R>
-                                  </color>
-                                  <depthOffset dataType="Float">0</depthOffset>
-                                  <displayedMoveDir dataType="Struct" type="Duality.Vector2" />
+                                  </firstColor>
                                   <gameobj dataType="ObjectRef">211454693</gameobj>
                                   <radius dataType="Float">100</radius>
+                                  <secondColor dataType="Struct" type="Duality.Drawing.ColorRgba">
+                                    <A dataType="Byte">255</A>
+                                    <B dataType="Byte">255</B>
+                                    <G dataType="Byte">255</G>
+                                    <R dataType="Byte">255</R>
+                                  </secondColor>
                                   <sharedMat dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Material]]">
                                     <contentPath dataType="String">Data\Rendering\GermBlob.Material.res</contentPath>
                                   </sharedMat>
+                                  <tint dataType="Struct" type="Duality.Drawing.ColorRgba">
+                                    <A dataType="Byte">255</A>
+                                    <B dataType="Byte">255</B>
+                                    <G dataType="Byte">255</G>
+                                    <R dataType="Byte">255</R>
+                                  </tint>
                                   <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
                                 </item>
                                 <item dataType="Struct" type="Duality.Components.Physics.RigidBody" id="3274231217">
@@ -1222,6 +1377,12 @@
                                 </item>
                                 <item dataType="Struct" type="Game.GermController" id="440725392">
                                   <active dataType="Bool">true</active>
+                                  <color dataType="Struct" type="Duality.Drawing.ColorRgba">
+                                    <A dataType="Byte">255</A>
+                                    <B dataType="Byte">255</B>
+                                    <G dataType="Byte">255</G>
+                                    <R dataType="Byte">255</R>
+                                  </color>
                                   <gameobj dataType="ObjectRef">211454693</gameobj>
                                   <moveSpeed dataType="Float">5</moveSpeed>
                                   <targetMovement dataType="Struct" type="Duality.Vector2" />
@@ -1291,19 +1452,32 @@
                                 </item>
                                 <item dataType="Struct" type="Game.GermBlobRenderer" id="4254482716">
                                   <active dataType="Bool">true</active>
-                                  <color dataType="Struct" type="Duality.Drawing.ColorRgba">
+                                  <colorShift dataType="Float">0</colorShift>
+                                  <depthOffset dataType="Float">0</depthOffset>
+                                  <displayedMoveDir dataType="Struct" type="Duality.Vector2" />
+                                  <firstColor dataType="Struct" type="Duality.Drawing.ColorRgba">
                                     <A dataType="Byte">255</A>
                                     <B dataType="Byte">255</B>
                                     <G dataType="Byte">255</G>
                                     <R dataType="Byte">255</R>
-                                  </color>
-                                  <depthOffset dataType="Float">0</depthOffset>
-                                  <displayedMoveDir dataType="Struct" type="Duality.Vector2" />
+                                  </firstColor>
                                   <gameobj dataType="ObjectRef">2092266675</gameobj>
                                   <radius dataType="Float">100</radius>
+                                  <secondColor dataType="Struct" type="Duality.Drawing.ColorRgba">
+                                    <A dataType="Byte">255</A>
+                                    <B dataType="Byte">255</B>
+                                    <G dataType="Byte">255</G>
+                                    <R dataType="Byte">255</R>
+                                  </secondColor>
                                   <sharedMat dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Material]]">
                                     <contentPath dataType="String">Data\Rendering\GermBlob.Material.res</contentPath>
                                   </sharedMat>
+                                  <tint dataType="Struct" type="Duality.Drawing.ColorRgba">
+                                    <A dataType="Byte">255</A>
+                                    <B dataType="Byte">255</B>
+                                    <G dataType="Byte">255</G>
+                                    <R dataType="Byte">255</R>
+                                  </tint>
                                   <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
                                 </item>
                                 <item dataType="Struct" type="Duality.Components.Physics.RigidBody" id="860075903">
@@ -1342,6 +1516,12 @@
                                 </item>
                                 <item dataType="Struct" type="Game.GermController" id="2321537374">
                                   <active dataType="Bool">true</active>
+                                  <color dataType="Struct" type="Duality.Drawing.ColorRgba">
+                                    <A dataType="Byte">255</A>
+                                    <B dataType="Byte">255</B>
+                                    <G dataType="Byte">255</G>
+                                    <R dataType="Byte">255</R>
+                                  </color>
                                   <gameobj dataType="ObjectRef">2092266675</gameobj>
                                   <moveSpeed dataType="Float">5</moveSpeed>
                                   <targetMovement dataType="Struct" type="Duality.Vector2" />
