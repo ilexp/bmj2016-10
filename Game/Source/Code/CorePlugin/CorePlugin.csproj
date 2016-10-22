@@ -59,6 +59,7 @@
   <ItemGroup>
     <Compile Include="CorePlugin.cs" />
     <Compile Include="CameraController.cs" />
+    <Compile Include="BackgroundGermController.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="GermController.cs" />
     <Compile Include="GermBlobRenderer.cs" />

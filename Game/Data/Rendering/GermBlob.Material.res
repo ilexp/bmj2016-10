@@ -18,6 +18,9 @@
         <mainTex dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Texture]]">
           <contentPath dataType="String">Data\Rendering\Blob.Texture.res</contentPath>
         </mainTex>
+        <cloudNoiseTex dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Texture]]">
+          <contentPath dataType="String">Data\Rendering\CloudNoise.Texture.res</contentPath>
+        </cloudNoiseTex>
       </body>
     </textures>
     <uniforms dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.String],[System.Single[]]]" id="649525530" surrogate="true">
