@@ -41,10 +41,10 @@ namespace Game
 			Vector2 targetVel = targetDir * targetSpeed * this.moveSpeed;
 
 			this.currentVelocity += (targetVel - this.currentVelocity) * 0.1f * Time.TimeMult;
-			this.GameObj.Transform.MoveByAbs(this.currentVelocity * Time.TimeMult);
+			this.GameObj.Transform.MoveBy(this.currentVelocity * Time.TimeMult);
 
 			Vector2 targetDisplayedMoveDir = targetDir * (this.targetMovement.Length / (0.35f + this.targetMovement.Length));
-			blobRenderer.DisplayedMoveDir += (targetDisplayedMoveDir - blobRenderer.DisplayedMoveDir) * 0.2f * Time.TimeMult;
+			blobRenderer.DisplayedMoveDir += (targetDisplayedMoveDir - blobRenderer.DisplayedMoveDir) * 0.05f * Time.TimeMult;
 
 			this.UpdateColor();
 		}

@@ -40,7 +40,7 @@ namespace Game
 			Vector2 actualVel = body.LinearVelocity;
 			Vector2 velDiff = targetVel - actualVel;
 
-			body.ApplyWorldForce(velDiff * body.Mass);
+			body.ApplyWorldForce(velDiff * body.Mass * 0.01f);
 
 			Vector2 targetDisplayedMoveDir = targetDir * (this.targetMovement.Length / (0.35f + this.targetMovement.Length));
 			blobRenderer.DisplayedMoveDir += (targetDisplayedMoveDir - blobRenderer.DisplayedMoveDir) * 0.05f * Time.TimeMult;
