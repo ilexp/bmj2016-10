@@ -1,6 +1,6 @@
 # Game Jam Entry: "A Game With Germs"
 
-Developed in about eight hours. Due to time constraints, there is no winning or losing condition, but the goal is to spread your color to all the cells and not be recolored yourself.
+Due to time constraints at the jam, there is no winning or losing condition implemented - but the goal is to spread your color to all the cells and not be recolored yourself.
 
 ## Running it
 
